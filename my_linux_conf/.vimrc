@@ -89,6 +89,7 @@ filetype plugin on
 syntax on
 au BufNewFile,BufRead *.t2t set ft=txt2tags
 au FileType python source ~/.vim/plugin/python.vim 
+"autocmd FileType python setlocal et sta sw=4 sts=4
 au Filetype html,xml,xsl,rhtml source ~/.vim/scripts/closetag.vim
 
 let g:winManagerWindowLayout = "TagList" 
@@ -110,7 +111,6 @@ set nofen
 set fdl=0
 
 
-
 set fencs=ucs-bom,utf-8,gb18030,gbk,gb2312,cp936
 
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
@@ -121,9 +121,8 @@ colorscheme advantage
 "set sw=4
 "set ts=4
 ""set expandtab
-"set softtabstop=4
-"set ts=4 sw=4 sts=4 tw=100 
-set ts=4 sw=4 sts=4 
+set ts=4 sw=4 sts=4 tw=100 
+"set ts=4 sw=4 sts=4 
 
 set noet
 set vb t_vb=
@@ -197,9 +196,9 @@ map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 iabbrev uns; using namespace std;
 
 " c-support setting
-let g:C_AuthorName      =   'InterMa'     
-let g:C_AuthorRef       =   'IM'                         
-let g:C_Email           =   'InterMa.bmy@gmail.com'           
+let g:C_AuthorName      =   'interma'     
+"let g:C_AuthorRef       =   'IM'                         
+let g:C_Email           =   'interma@outlook.com'           
 " doxygenToolkit setting
 let g:doxygenToolkit_authorName="InterMa"
 let g:doxygenToolkit_briefTag_funcName="yes"
