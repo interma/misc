@@ -153,20 +153,12 @@ nmap <F3> :nohlsearch<CR>
 nmap <F4> <C-W>w
 nmap ww <C-W>w
 imap <F4> <ESC><F4>
-nmap <F5> :q<CR>
-imap <F5> <ESC><F5>
-nmap <F6> :make<CR>
-imap <F6> <ESC><F6>
+map <F5> :set paste<CR>
+map <F6> :set nopaste<CR>
+set pastetoggle=<F5>
 imap jj <ESC>
 nmap ww :w<CR>
 imap ww <ESC>:w<CR>
-"nmap <C-J> :tabn<CR>
-"imap <C-J> <ESC><C-J><CR>
-"nmap <C-K> :tabp<CR>
-"imap <C-K> <ESC><C-K><CR>
-"imap <C-J> <ESC><C-J><CR>
-"nmap <C-K> :tabp<CR>
-"imap <C-K> <ESC><C-K><CR>
 nmap <C-j> :bn<cr> 
 nmap bn :bn<cr> 
 nmap <C-k> :bp<cr>
@@ -184,11 +176,6 @@ nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 " A
 nnoremap <silent> <F12> :A<CR>
 
-map <F10> :set paste<CR>
-map <F11> :set nopaste<CR>
-imap <F10> <C-O>:set paste<CR>
-imap <F11> <nop>
-set pastetoggle=<F11>
 
 map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
