@@ -40,8 +40,7 @@ public:
 	enum AState { //action state
 		BEG,
 		READ,
-		WRITE,
-		FIN
+		WRITE
 	};	
 	AState state;
 
@@ -64,12 +63,10 @@ public:
 	}
 	~RLConnection()
 	{
-		/*
 		if (state != BEG){
 			ev_io_stop(server->loop, &action_watcher);
 			close(fd);
 		}
-		*/
 		//server->clients_num--;
 	}
     static void on_action(struct ev_loop *loop, ev_io *watcher, int revents);
@@ -160,8 +157,8 @@ public:
 		}
 
 		printf("fd[%d] connected\n", fd);
-		//close(fd);
-		RLConnection *connection = new RLConnection(s, fd); //when delete?
+		//when delete: loop read==0
+		RLConnection *connection = new RLConnection(s, fd); 
 
 		if(connection == NULL) {
 			close(fd);
@@ -172,9 +169,12 @@ public:
 
 };
 
+/**
+ * one read, one write action mode
+ */ 
 void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
 {
-	puts("i am in action");
+	//puts("i am in action");
 	RLConnection *connection = static_cast<RLConnection*>(watcher->data);
 	if(EV_ERROR & revents) {
 		puts("on_readable() got error event, closing connection.");
@@ -188,22 +188,21 @@ void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
 	char *read_buffer = connection->read_buffer;
 	std::string &write_buffer = connection->write_buffer;
 	RLServer *server = connection->server;
-
+	
 	if (state == BEG || state == READ) {
 		int cnt = read(fd, read_buffer, sizeof(connection->read_buffer));
-		printf("read from [%d], cnt:%d\n", fd, cnt);
 		if (cnt == 0) //peer close
 		{
-			ev_io_stop(server->loop, action_watcher);
-			close(fd);
+			printf("fd[%d] disconnected\n", fd);
+			//ev_io_stop(server->loop, action_watcher);
+			//close(fd);
+			delete connection;
 			return;
 		}
 		write_buffer.clear();
+		char msg[] = "i give you:";
+		write_buffer.append(msg, sizeof(msg));
 		write_buffer.append(read_buffer, cnt);
-		write_buffer.append("\r\n", 2);
-		
-		//cut	
-		//write(fd, write_buffer.data(), write_buffer.length());
 
 		connection->state = WRITE;
 		ev_io_stop(server->loop, action_watcher);
@@ -218,7 +217,9 @@ void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
 		ev_io_set(action_watcher, fd, EV_READ);
 		ev_io_start(server->loop, action_watcher);
 	}
-	else if (state == FIN) {
+	else {
+		puts("unknown state");
+		return;
 	}
 }
 

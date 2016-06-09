@@ -6,12 +6,12 @@ INCLUDE_PATH=-I. \
 
 LIB_PATH=-L. -lpthread -lev
 
-SERVER=echo_server
+SERVER=single_echo_server
 
 all : $(SERVER) output
 	
 $(SERVER) : \
-	echo_server.o \
+	single_echo_server.o \
 
 	$(GCC) -o $@ $^  $(INCLUDE_PATH) $(LIB_PATH) 
 
