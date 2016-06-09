@@ -24,12 +24,59 @@
 #include <arpa/inet.h>   /* inet_ntoa */
 
 #include <ev.h>
+#include <string>
 
 void set_nonblock (int fd) {
 	int flags = fcntl(fd, F_GETFL, 0);
 	int r = fcntl(fd, F_SETFL, flags | O_NONBLOCK);
 	assert(0 <= r && "Setting socket non-block failed!");
 }
+
+class RLServer;
+class RLConnection{
+public:
+    int fd;
+    RLServer *server;
+	enum AState { //action state
+		BEG,
+		READ,
+		WRITE,
+		FIN
+	};	
+	AState state;
+
+    char read_buffer[1024];
+    std::string write_buffer;
+
+    ev_io action_watcher;
+    //ev_timer timeout_watcher; //todo
+
+	RLConnection(RLServer *s, int fd) :fd(fd), server(s), state(BEG)
+	{
+		set_nonblock(fd);
+
+		ev_init(&action_watcher, RLConnection::on_action);
+		action_watcher.data = this;
+		
+		//timeout_watcher.data = this;
+
+		//server->clients_num++;
+	}
+	~RLConnection()
+	{
+		/*
+		if (state != BEG){
+			ev_io_stop(server->loop, &action_watcher);
+			close(fd);
+		}
+		*/
+		//server->clients_num--;
+	}
+    static void on_action(struct ev_loop *loop, ev_io *watcher, int revents);
+    void start();
+
+};
+
 
 class RLServer{
 public:
@@ -113,19 +160,73 @@ public:
 		}
 
 		printf("fd[%d] connected\n", fd);
-		close(fd);
-		/*
-		RLConnection *connection = new RLConnection(s, fd);
+		//close(fd);
+		RLConnection *connection = new RLConnection(s, fd); //when delete?
 
 		if(connection == NULL) {
 			close(fd);
 			return;
 		}
 		connection->start();
-		*/
 	}
 
 };
+
+void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
+{
+	puts("i am in action");
+	RLConnection *connection = static_cast<RLConnection*>(watcher->data);
+	if(EV_ERROR & revents) {
+		puts("on_readable() got error event, closing connection.");
+		return;
+	}
+	int fd = connection->fd;
+	int state = connection->state;
+	printf("in action, state[%d]\n", state);
+
+	ev_io *action_watcher = &(connection->action_watcher);
+	char *read_buffer = connection->read_buffer;
+	std::string &write_buffer = connection->write_buffer;
+	RLServer *server = connection->server;
+
+	if (state == BEG || state == READ) {
+		int cnt = read(fd, read_buffer, sizeof(connection->read_buffer));
+		printf("read from [%d], cnt:%d\n", fd, cnt);
+		if (cnt == 0) //peer close
+		{
+			ev_io_stop(server->loop, action_watcher);
+			close(fd);
+			return;
+		}
+		write_buffer.clear();
+		write_buffer.append(read_buffer, cnt);
+		write_buffer.append("\r\n", 2);
+		
+		//cut	
+		//write(fd, write_buffer.data(), write_buffer.length());
+
+		connection->state = WRITE;
+		ev_io_stop(server->loop, action_watcher);
+		ev_io_set(action_watcher, fd, EV_WRITE);
+		ev_io_start(server->loop, action_watcher);
+	}
+	else if (state == WRITE) {
+		write(fd, write_buffer.data(), write_buffer.length());
+
+		connection->state = READ;
+		ev_io_stop(server->loop, action_watcher);
+		ev_io_set(action_watcher, fd, EV_READ);
+		ev_io_start(server->loop, action_watcher);
+	}
+	else if (state == FIN) {
+	}
+}
+
+void RLConnection::start()
+{
+	ev_io_set(&action_watcher, fd, EV_READ);
+	ev_io_start(server->loop, &action_watcher);
+}	
 
 int main(int argc, char **argv)
 {
