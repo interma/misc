@@ -16,23 +16,8 @@
 #include <unistd.h>
 #include <assert.h>
 
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <sys/un.h>
-#include <netinet/tcp.h> /* TCP_NODELAY */
-#include <netinet/in.h>  /* inet_ntoa */
-#include <arpa/inet.h>   /* inet_ntoa */
-
 #include "rlsvr.h"
 #include "rlcon.h"
-
-void set_nonblock (int fd) {
-	int flags = fcntl(fd, F_GETFL, 0);
-	int r = fcntl(fd, F_SETFL, flags | O_NONBLOCK);
-	assert(0 <= r && "Setting socket non-block failed!");
-}
-
-
 
 int main(int argc, char **argv)
 {

@@ -11,6 +11,7 @@ SERVER=single_echo_server
 all : $(SERVER) output
 	
 $(SERVER) : \
+	rlsvr.o rlcon.o \
 	single_echo_server.o \
 
 	$(GCC) -o $@ $^  $(INCLUDE_PATH) $(LIB_PATH) 

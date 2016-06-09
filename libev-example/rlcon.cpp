@@ -6,25 +6,25 @@
 
 #include "rlcon.h"
 
-	RLConnection::RLConnection(RLServer *s, int fd) :fd(fd), server(s), state(BEG)
-	{
-		set_nonblock(fd);
+RLConnection::RLConnection(RLServer *s, int fd) :fd(fd), server(s), state(BEG)
+{
+	//set_nonblock(fd);
 
-		ev_init(&action_watcher, RLConnection::on_action);
-		action_watcher.data = this;
-		
-		//timeout_watcher.data = this;
+	ev_init(&action_watcher, RLConnection::on_action);
+	action_watcher.data = this;
 
-		//server->clients_num++;
+	//timeout_watcher.data = this;
+
+	//server->clients_num++;
+}
+RLConnection::~RLConnection()
+{
+	if (state != BEG){
+		ev_io_stop(server->loop, &action_watcher);
+		close(fd);
 	}
-	RLConnection::~RLConnection()
-	{
-		if (state != BEG){
-			ev_io_stop(server->loop, &action_watcher);
-			close(fd);
-		}
-		//server->clients_num--;
-	}
+	//server->clients_num--;
+}
 
 /**
  * one read, one write action mode
@@ -45,7 +45,7 @@ void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
 	char *read_buffer = connection->read_buffer;
 	std::string &write_buffer = connection->write_buffer;
 	RLServer *server = connection->server;
-	
+
 	if (state == BEG || state == READ) {
 		int cnt = read(fd, read_buffer, sizeof(connection->read_buffer));
 		if (cnt == 0) //peer close
