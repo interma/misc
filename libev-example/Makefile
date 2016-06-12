@@ -1,18 +1,18 @@
 
 GCC=g++
-CPPFLAGS = -g -fPIC -Wall -W -Winline -Werror  -Wno-unused-parameter -Wno-unused-function
+CPPFLAGS = -g -fPIC -Wall -W -Winline -Werror  -Wno-unused-parameter -Wno-unused-function -std=c++11
 
 INCLUDE_PATH=-I. \
 
 LIB_PATH=-L. -lpthread -lev
 
-SERVER=single_echo_server
+SERVER=echo_server
 
 all : $(SERVER) output
 	
 $(SERVER) : \
 	rlsvr.o rlcon.o \
-	single_echo_server.o \
+	echo_server.o \
 
 	$(GCC) -o $@ $^  $(INCLUDE_PATH) $(LIB_PATH) 
 

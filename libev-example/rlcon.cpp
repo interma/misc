@@ -4,6 +4,8 @@
  created: 06/09/16 20:35:54 HKT
 */
 
+#include <thread>
+#include <chrono>
 #include "rlcon.h"
 
 RLConnection::RLConnection(RLServer *s, int fd) :fd(fd), server(s), state(BEG)
@@ -60,6 +62,9 @@ void RLConnection::on_action(struct ev_loop *loop, ev_io *watcher, int revents)
 		char msg[] = "i give you:";
 		write_buffer.append(msg, sizeof(msg));
 		write_buffer.append(read_buffer, cnt);
+
+		//simulation slow action
+		//std::this_thread::sleep_for(std::chrono::seconds(10));
 
 		connection->state = WRITE;
 		ev_io_stop(server->loop, action_watcher);
