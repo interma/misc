@@ -25,15 +25,21 @@ struct ev_async* g_async;
 std::thread* g_threads;
 
 static void thread_func(int i) {
-	printf("i am thread[%d]\n", i);
+	std::hash<std::thread::id> hasher;
+	printf("i am thread[%d], tid[%u]\n", i, hasher(std::this_thread::get_id()));
 	struct ev_loop * loop = g_loop[i];
 	ev_run(loop, 0);
 }
 
+//called in loop thread
 static void async_callback(struct ev_loop* loop, ev_async* watcher, int revents) {
 	assert(loop);
 	assert(watcher);
 	assert(revents == EV_ASYNC);
+	
+	std::hash<std::thread::id> hasher;
+	printf("async_callback tid[%u]\n", hasher(std::this_thread::get_id()));
+
 }
 
 int main(int argc, char **argv)
@@ -58,7 +64,6 @@ int main(int argc, char **argv)
 			ev_async_init(g_async + i, async_callback);
 			ev_async_start(g_loop[i], g_async + i);
 
-
 			//start worker
 			g_threads[i] = std::thread(thread_func,i);
 			
@@ -66,7 +71,7 @@ int main(int argc, char **argv)
 
 	}
 
-	RLServer server;
+	RLServer server(mt?threads:0);
 	server.start();
 	printf("server exit\n");
 

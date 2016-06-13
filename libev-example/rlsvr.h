@@ -25,13 +25,15 @@
 
 class RLServer{
 public:
+	int threads;
+	int th_no;
     int port;
     int fd;
     int clients_num;
     struct ev_loop* loop;
     ev_io connection_watcher;
 
-    RLServer();
+    RLServer(int n);
     ~RLServer();
 
     void start();

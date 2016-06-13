@@ -7,6 +7,9 @@
 #include "rlsvr.h"
 #include "rlcon.h" 
 
+extern struct ev_loop** g_loop;
+extern struct ev_async* g_async;
+
 void set_nonblock (int fd) {
 	int flags = fcntl(fd, F_GETFL, 0);
 	int r = fcntl(fd, F_SETFL, flags | O_NONBLOCK);
@@ -14,7 +17,7 @@ void set_nonblock (int fd) {
 }
 
 
-RLServer::RLServer() : port(1220), fd(-1), clients_num(0) 
+RLServer::RLServer(int n) : threads(n), th_no(0), port(1220), fd(-1), clients_num(0) 
 {
 	loop = ev_loop_new(EVFLAG_AUTO);
 	connection_watcher.data = this;
@@ -88,6 +91,13 @@ void RLServer::on_connection(struct ev_loop *loop, ev_io *watcher, int revents)
 	}
 
 	printf("fd[%d] connected\n", fd);
+
+	//async notify
+	if (s->threads) {
+		ev_async_send (g_loop[s->th_no], g_async+s->th_no);
+		s->th_no = (s->th_no+1)%s->threads;
+	}
+
 	//when delete: loop read==0
 	RLConnection *connection = new RLConnection(s, fd); 
 
