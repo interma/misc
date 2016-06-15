@@ -29,6 +29,7 @@ class RLConnection{
 public:
     int fd;
     RLServer *server;
+    struct ev_loop* loop;
 	enum AState { //action state
 		BEG,
 		READ,
@@ -42,7 +43,7 @@ public:
     ev_io action_watcher;
     //ev_timer timeout_watcher; //todo
 
-	RLConnection(RLServer *s, int fd);
+	RLConnection(RLServer *s, int fd, struct ev_loop* l=NULL);
 	~RLConnection();
 
     static void on_action(struct ev_loop *loop, ev_io *watcher, int revents);

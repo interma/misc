@@ -92,18 +92,25 @@ void RLServer::on_connection(struct ev_loop *loop, ev_io *watcher, int revents)
 
 	printf("fd[%d] connected\n", fd);
 
-	//async notify
+	RLConnection *connection = NULL;
 	if (s->threads) {
+		/*
+		//async notify
+		ev_async_send (g_loop[s->th_no], g_async+s->th_no);
+		s->th_no = (s->th_no+1)%s->threads;
+		*/
+		connection = new RLConnection(s, fd, g_loop[s->th_no]); 
 		ev_async_send (g_loop[s->th_no], g_async+s->th_no);
 		s->th_no = (s->th_no+1)%s->threads;
 	}
-
-	//when delete: loop read==0
-	RLConnection *connection = new RLConnection(s, fd); 
+	else {
+		connection = new RLConnection(s, fd); 
+	}
 
 	if(connection == NULL) {
 		close(fd);
 		return;
 	}
+	//when delete: loop read==0
 	connection->start();
 }

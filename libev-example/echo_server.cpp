@@ -19,6 +19,7 @@
 
 #include "rlsvr.h"
 #include "rlcon.h"
+#include "threadsafe_queue.h"
 
 struct ev_loop** g_loop;
 struct ev_async* g_async;
