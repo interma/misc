@@ -14,5 +14,7 @@ int main()
 	printf("uint64_t:%d\n", sizeof(uint64_t));
 	printf("unsigned long long:%d\n", sizeof(unsigned long long));
 	printf("unsigned long:%d\n", sizeof(unsigned long));
+	char str[] = "123";
+	printf("%s sizeof is:%d\n", str, sizeof(str));
 	return 0;
 }
