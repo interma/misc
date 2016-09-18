@@ -36,8 +36,18 @@ func test3() {
 	//this is enough from my raft 
     log.Println("timer seted!") 
 	timer := time.NewTimer(2*time.Second) 
-    time.Sleep(1 * time.Second)
-	timer.Reset(2*time.Second)
+    time.Sleep(3 * time.Second)
+	//timer.Reset(2*time.Second)
+	go func(){
+		<- timer.C 
+		log.Println("timer expired!")
+	}()
+    time.Sleep(4 * time.Second)
+}
+func test4() {
+	//this is enough from my raft 
+	timer := time.NewTimer(2*time.Second) 
+    log.Println("timer seted!") 
 	go func(){
 		<- timer.C 
 		log.Println("timer expired!")
@@ -47,5 +57,6 @@ func test3() {
 
 
 func main() {
+	//test4()
 	test3()
 }
