@@ -19,10 +19,10 @@
 <configuration>
 	<property>
 		<name>dfs.namenode.name.dir</name>
-		<value>file:/Users/interma/pkg/hadoop-2.7.3/tmp/dfs/name</value>
+		<value>file:/home/interma/hawq/hadoop-2.7.3/tmp/dfs/name</value>
 	</property>
 	<property>
 		<name>dfs.datanode.data.dir</name>
-		<value>file:/Users/interma/pkg/hadoop-2.7.3/tmp/dfs/data</value>
+		<value>file:/home/interma/hawq/hadoop-2.7.3/tmp/dfs/data</value>
 	</property>
 </configuration>

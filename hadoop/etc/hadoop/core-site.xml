@@ -23,7 +23,7 @@
 	</property>
 	<property>
 		<name>hadoop.tmp.dir</name>
-		<value>file:/Users/interma/pkg/hadoop-2.7.3/tmp/</value>
+		<value>file:/home/interma/hawq/hadoop-2.7.3/tmp/</value>
 		<description>A base for other temporary directories.</description>
 	</property>
 </configuration>
