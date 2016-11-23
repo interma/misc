@@ -24,7 +24,11 @@
 # The java implementation to use.
 
 # export JAVA_HOME=${JAVA_HOME}
-export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+#linux
+#export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+#mac
+export JAVA_HOME=`/usr/libexec/java_home`
+#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
 
 # The jsvc implementation to use. Jsvc is required to run secure datanodes
 # that bind to privileged ports to provide authentication of data transfer

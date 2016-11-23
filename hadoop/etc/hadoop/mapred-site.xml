@@ -29,4 +29,8 @@
 		<name>mapred.tasktracker.reduce.tasks.maximum</name>
 		<value>2</value>
 	</property> 
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property> 
 </configuration>
