@@ -26,4 +26,9 @@
 		<value>file:/Users/hma/hawq/hadoop-2.7.3/tmp/</value>
 		<description>A base for other temporary directories.</description>
 	</property>
+	<property>
+		<name>hadoop.security.key.provider.path</name>
+		<value>kms://http@localhost:16000/kms</value>
+		<description>kms server</description>
+	</property>
 </configuration>

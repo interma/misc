@@ -13,9 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
 -->
-
 <!-- Put site-specific property overrides in this file. -->
-
 <configuration>
 	<property>
 		<name>dfs.namenode.name.dir</name>
@@ -24,5 +22,14 @@
 	<property>
 		<name>dfs.datanode.data.dir</name>
 		<value>file:/Users/hma/hawq/hadoop-2.7.3/tmp/dfs/data</value>
+	</property>
+	<property>
+		<name>dfs.replication</name>
+		<value>1</value>
+	</property>
+	<property>
+		<name>dfs.encryption.key.provider.uri</name>
+		<value>kms://http@localhost:16000/kms</value>
+		<description>kms server</description>
 	</property>
 </configuration>
