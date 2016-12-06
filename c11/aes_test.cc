@@ -49,6 +49,7 @@ std::string encode(EVP_CIPHER_CTX *ctx, const char *input, size_t input_len) {
 		std::string err = ERR_lib_error_string(ERR_get_error());
 		return err;
 	}
+	std::cout<<len<<std::endl;
     return result;
 }
 
@@ -64,9 +65,10 @@ int main() {
     if (!EVP_CipherInit_ex(ctx, EVP_aes_128_ctr(), NULL, key, iv, 1)) {
 		return -1;	
 	}
-	EVP_CIPHER_CTX_set_padding(ctx, 0);
+	//EVP_CIPHER_CTX_set_padding(ctx, 1);
 	
 	char data[18] = "1234567890abcdfgh";
+	char data[] = "1";
 	std::string result = encode(ctx, data, sizeof(data));
 	
 	std::cout<<result.length()<<std::endl;
