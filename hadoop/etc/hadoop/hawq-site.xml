@@ -148,7 +148,7 @@ under the License.
 
         <property>
                 <name>default_hash_table_bucket_number</name>
-                <value>4</value>
+                <value>6</value>
         </property>
 
 </configuration>
