@@ -84,3 +84,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export OPENSSL_ROOT_DIR=/usr/local/opt/openssl
