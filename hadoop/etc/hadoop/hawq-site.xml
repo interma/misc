@@ -151,4 +151,17 @@ under the License.
                 <value>6</value>
         </property>
 
+        <property>
+                <name>enable_ranger</name>
+                <value>true</value>
+        </property>
+        <property>
+                <name>hawq_rps_address_host</name>
+                <value>127.0.0.1</value>
+        </property>
+        <property>
+                <name>hawq_rps_address_port</name>
+                <value>1234</value>
+        </property>
+
 </configuration>
