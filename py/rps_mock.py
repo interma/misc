@@ -17,6 +17,19 @@ response:
     {""requestId"":1,""access"":[{""resource"":{""database"":""template1"",""schema"":""public""},""privileges"":[""usage""],""allowed"":true}]}
 """
 class RPSHandler(tornado.web.RequestHandler):
+    def make_response(self, req, ok):
+        res = {}
+        res["requestId"] = req["requestId"]
+        res["access"] = []
+        for a in req["access"]:
+            resource = a["resource"]
+            privileges = a["privileges"]
+            allowed = False
+            if ok:
+                allowed = True
+            res["access"].append({"resource":resource,"privileges":privileges,"allowed":allowed})
+        return res
+
     def get(self):
 	self.write("Hello, world")
 
@@ -31,10 +44,11 @@ class RPSHandler(tornado.web.RequestHandler):
         print req
 
         yn = raw_input("[y/n]: ")
-        res = {"access":[{"allowed":True}]}
+        allowed = True
         if yn and yn.strip() == 'n':
-            res = {"access":[{"allowed":False}]}
-        self.write(json.dumps(res))
+            allowed = False
+        jres = self.make_response(jreq, allowed)
+        self.write(json.dumps(jres, sort_keys=True))
 
 def make_app():
     return tornado.web.Application([
