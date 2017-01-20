@@ -1,9 +1,21 @@
 import tornado.ioloop
 import tornado.web
 import json
+import sys
 
-
+# global
 counter = 0
+
+# configure
+ALL_GRANT = False
+
+def read_cmdline(cmdline):
+    global ALL_GRANT
+    items = cmdline.split(',')
+    for item in items:
+        k,v = item.split('=')
+        if k == "ALL_GRANT" and int(v) > 0:
+            ALL_GRANT = True
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -42,11 +54,12 @@ class RPSHandler(tornado.web.RequestHandler):
         print "\033[1;42m#%d\033[1;m"%(counter),
         print '\033[0m'
         print req
-
-        yn = raw_input("[y/n]: ")
+        
         allowed = True
-        if yn and yn.strip() == 'n':
-            allowed = False
+        if not ALL_GRANT:
+            yn = raw_input("[y/n]: ")
+            if yn and yn.strip() == 'n':
+                allowed = False
         jres = self.make_response(jreq, allowed)
         self.write(json.dumps(jres, sort_keys=True))
 
@@ -57,6 +70,9 @@ def make_app():
     ])
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        read_cmdline(sys.argv[1])
+
     app = make_app()
     app.listen(8080)
     tornado.ioloop.IOLoop.current().start()
