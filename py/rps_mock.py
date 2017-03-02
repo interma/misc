@@ -8,14 +8,19 @@ counter = 0
 
 # configure
 ALL_GRANT = False
+ONE_LINE = False
 
 def read_cmdline(cmdline):
     global ALL_GRANT
+    global ONE_LINE
+
     items = cmdline.split(',')
     for item in items:
         k,v = item.split('=')
         if k == "ALL_GRANT" and int(v) > 0:
             ALL_GRANT = True
+        if k == "ONE_LINE" and int(v) > 0:
+            ONE_LINE = True
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -50,7 +55,10 @@ class RPSHandler(tornado.web.RequestHandler):
         counter += 1
 	self.set_header("Content-Type", "application/json")
         jreq = json.loads(self.request.body)
-        req = json.dumps(jreq, sort_keys=False, indent=4, separators=(',', ': '))
+        if ONE_LINE:
+            req = json.dumps(jreq, sort_keys=False)
+        else:
+            req = json.dumps(jreq, sort_keys=False, indent=4, separators=(',', ': '))
         print "\033[1;42m#%d\033[1;m"%(counter),
         print '\033[0m'
         print req
@@ -74,5 +82,6 @@ if __name__ == "__main__":
         read_cmdline(sys.argv[1])
 
     app = make_app()
-    app.listen(8080)
+    #app.listen(8080)
+    app.listen(8432)
     tornado.ioloop.IOLoop.current().start()
