@@ -1,0 +1,636 @@
+20170328:07:33:23:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:33:23:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:33:29:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:33:29:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:33:52:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:33:52:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:33:58:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:33:58:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_group1...
+20170328:07:33:59:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:33:59:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:34:20:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:34:20:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:34:25:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_group1.
+20170328:07:34:25:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_group2...
+20170328:07:34:25:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:34:25:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:34:49:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:34:49:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:34:57:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:34:57:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:34:57:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_group2.
+20170328:07:34:57:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_other...
+20170328:07:35:22:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:35:22:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:35:34:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_other.
+20170328:07:35:34:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_other.
+20170328:07:35:51:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27771/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27771/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27771/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27771/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27771/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27771/6']
+20170328:07:35:52:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27970/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27970/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27970/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27970/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27970/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27970/6']
+20170328:07:35:57:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_other.
+20170328:07:36:03:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:36:03:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:36:09:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/28026/1', 'hdfs://localhost:8020/hawq_default/16385/16508/28026/2', 'hdfs://localhost:8020/hawq_default/16385/16508/28026/3', 'hdfs://localhost:8020/hawq_default/16385/16508/28026/4', 'hdfs://localhost:8020/hawq_default/16385/16508/28026/5', 'hdfs://localhost:8020/hawq_default/16385/16508/28026/6']
+20170328:07:36:09:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27785/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27785/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27785/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27785/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27785/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27785/6']
+20170328:07:36:10:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27987/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27987/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27987/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27987/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27987/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27987/6']
+20170328:07:36:25:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/28049/1', 'hdfs://localhost:8020/hawq_default/16385/16508/28049/2', 'hdfs://localhost:8020/hawq_default/16385/16508/28049/3', 'hdfs://localhost:8020/hawq_default/16385/16508/28049/4', 'hdfs://localhost:8020/hawq_default/16385/16508/28049/5', 'hdfs://localhost:8020/hawq_default/16385/16508/28049/6']
+20170328:07:36:25:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27815/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27815/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27815/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27815/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27815/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27815/6']
+20170328:07:36:26:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27995/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27995/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27995/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27995/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27995/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27995/6']
+20170328:07:36:37:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:36:37:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_group1...
+20170328:07:36:42:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/28065/1', 'hdfs://localhost:8020/hawq_default/16385/16508/28065/2', 'hdfs://localhost:8020/hawq_default/16385/16508/28065/3', 'hdfs://localhost:8020/hawq_default/16385/16508/28065/4', 'hdfs://localhost:8020/hawq_default/16385/16508/28065/5', 'hdfs://localhost:8020/hawq_default/16385/16508/28065/6']
+20170328:07:36:43:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27830/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27830/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27830/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27830/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27830/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27830/6']
+20170328:07:36:43:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/27979/1', 'hdfs://localhost:8020/hawq_default/16385/16508/27979/2', 'hdfs://localhost:8020/hawq_default/16385/16508/27979/3', 'hdfs://localhost:8020/hawq_default/16385/16508/27979/4', 'hdfs://localhost:8020/hawq_default/16385/16508/27979/5', 'hdfs://localhost:8020/hawq_default/16385/16508/27979/6']
+20170328:07:36:58:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/28079/1', 'hdfs://localhost:8020/hawq_default/16385/16508/28079/2', 'hdfs://localhost:8020/hawq_default/16385/16508/28079/3', 'hdfs://localhost:8020/hawq_default/16385/16508/28079/4', 'hdfs://localhost:8020/hawq_default/16385/16508/28079/5', 'hdfs://localhost:8020/hawq_default/16385/16508/28079/6']
+20170328:07:37:10:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_group1.
+20170328:07:37:10:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_group2...
+20170328:07:37:43:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_group2.
+20170328:07:37:43:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table t_1_prt_other...
+20170328:07:38:13:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:38:14:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:38:19:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table t_1_prt_other.
+20170328:07:38:31:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/29410/1', 'hdfs://localhost:8020/hawq_default/16385/16508/29410/2', 'hdfs://localhost:8020/hawq_default/16385/16508/29410/3', 'hdfs://localhost:8020/hawq_default/16385/16508/29410/4', 'hdfs://localhost:8020/hawq_default/16385/16508/29410/5', 'hdfs://localhost:8020/hawq_default/16385/16508/29410/6']
+20170328:07:38:49:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/29420/1', 'hdfs://localhost:8020/hawq_default/16385/16508/29420/2', 'hdfs://localhost:8020/hawq_default/16385/16508/29420/3', 'hdfs://localhost:8020/hawq_default/16385/16508/29420/4', 'hdfs://localhost:8020/hawq_default/16385/16508/29420/5', 'hdfs://localhost:8020/hawq_default/16385/16508/29420/6']
+20170328:07:38:50:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:38:51:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:39:05:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:39:06:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:39:10:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:39:10:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:39:12:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/29426/1', 'hdfs://localhost:8020/hawq_default/16385/16508/29426/2', 'hdfs://localhost:8020/hawq_default/16385/16508/29426/3', 'hdfs://localhost:8020/hawq_default/16385/16508/29426/4', 'hdfs://localhost:8020/hawq_default/16385/16508/29426/5', 'hdfs://localhost:8020/hawq_default/16385/16508/29426/6']
+20170328:07:39:21:051357 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:39:22:050607 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:39:35:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:39:35:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:39:35:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/29415/1', 'hdfs://localhost:8020/hawq_default/16385/16508/29415/2', 'hdfs://localhost:8020/hawq_default/16385/16508/29415/3', 'hdfs://localhost:8020/hawq_default/16385/16508/29415/4', 'hdfs://localhost:8020/hawq_default/16385/16508/29415/5', 'hdfs://localhost:8020/hawq_default/16385/16508/29415/6']
+20170328:07:39:39:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:39:39:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table nt_1_prt_girls...
+20170328:07:39:41:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:39:41:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:39:47:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:39:47:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:39:48:052751 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:39:48:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:39:48:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:39:55:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:39:55:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:40:09:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:40:10:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:40:17:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:40:17:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:40:24:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:40:24:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:40:33:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:40:33:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:40:33:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:40:33:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:40:39:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:40:39:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:40:55:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:40:55:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_girls...
+20170328:07:41:02:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:41:10:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table nt_1_prt_girls.
+20170328:07:41:10:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table nt_1_prt_boys...
+20170328:07:41:10:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:41:10:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:41:16:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:41:16:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:41:17:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31922/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31922/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31922/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31922/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31922/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31922/6']
+20170328:07:41:19:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:41:19:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:41:25:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:41:25:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:41:41:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_girls.
+20170328:07:41:41:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_boys...
+20170328:07:41:42:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31927/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31927/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31927/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31927/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31927/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31927/6']
+20170328:07:41:55:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:41:55:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:42:02:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:42:02:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:42:05:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31933/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31933/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31933/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31933/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31933/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31933/6']
+20170328:07:42:05:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_other.
+20170328:07:42:05:073681 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-PartitionBy of rank_1_prt_other is not consistent with previous partitionby.
+20170328:07:42:13:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_other.
+20170328:07:42:24:076978 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/hawq_default/16385/16508/32119/7 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:42:27:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32028/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32028/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32028/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32028/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32028/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32028/6']
+20170328:07:42:27:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_boys.
+20170328:07:42:27:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table rank_1_prt_other...
+20170328:07:42:30:090049 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:42:30:090049 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Multi-level partition table is not supported!
+20170328:07:42:39:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table nt_1_prt_boys.
+20170328:07:42:39:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check for table nt_1_prt_other...
+20170328:07:42:39:090863 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:42:39:090863 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot find yaml file : /tmp/build/d29698ca/featuretest/ManagementTool/rollback/error_schema.yml
+20170328:07:42:40:061316 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:42:47:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32033/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32033/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32033/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32033/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32033/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32033/6']
+20170328:07:42:49:092140 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:42:49:092140 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot find yaml file : /tmp/build/d29698ca/featuretest/ManagementTool/rollback/error_schema.yml
+20170328:07:42:50:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table rank_1_prt_other.
+20170328:07:42:50:077603 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Partition Constraint "PARTITION boys VALUES('M') WITH (appendonly=true)" in table rank_1_prt_other is duplicated
+20170328:07:42:54:092657 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:42:54:092657 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot find yaml file : /tmp/build/d29698ca/featuretest/ManagementTool/rollback/error_schema.yml
+20170328:07:42:54:074082 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Partition Constraint "PARTITION group2 VALUES('M') WITH (appendonly=true)" is not in table testhawqregister_testpartitionconstraintnotexistsincatalog.nt_1_prt_girls
+20170328:07:42:56:079504 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/hawq_default/16385/16508/32178/7 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:43:02:093600 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:05:093771 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:06:093927 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:07:094033 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:10:094389 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:13:094588 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:43:42:093600 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1esdsusage1dat.paq']
+20170328:07:43:46:094033 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1shfhawq_register_hive.paq']
+20170328:07:43:46:093927 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1shfhawq_register_hawq.paq']
+20170328:07:43:47:093771 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1esusage1dat.paq']
+20170328:07:43:53:094588 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tanhawq_register_data_types.paq']
+20170328:07:43:53:094389 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tdthawq_register_data_types.paq']
+20170328:07:44:14:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done for table nt_1_prt_other.
+20170328:07:44:24:093600 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:27:093927 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:28:093771 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:29:094033 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:30:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31876/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31876/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31876/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31876/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31876/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31876/6']
+20170328:07:44:30:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/31736/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31736/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31736/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31736/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31736/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31736/6']
+20170328:07:44:37:094588 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:38:094389 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:39:072305 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:44:42:100837 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:44:42:100837 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Table testhawqregister_testusage1notparquettable.hawqregister does not exist.
+You should create table before registering the data.
+20170328:07:44:43:100926 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:44:46:101173 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:44:50:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31881/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31881/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31881/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31881/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31881/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31881/6']
+20170328:07:44:50:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/31741/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31741/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31741/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31741/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31741/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31741/6']
+20170328:07:44:51:101459 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:44:52:101625 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:44:52:101625 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Table testhawqregister_testusage1notable.hawqregister does not exist.
+You should create table before registering the data.
+20170328:07:44:52:101767 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:03:101767 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-table 'hawqregister' is not parquet format
+20170328:07:45:03:101767 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Failed to get segment name
+20170328:07:45:03:101173 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Path '/tmp/build/d29698ca/featuretest/ManagementTool/test_hawq_register_hawq.paq' does not exist in hdfs
+20170328:07:45:13:102819 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:13:102849 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:13:102859 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:13:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31900/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31900/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31900/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31900/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31900/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31900/6']
+20170328:07:45:13:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/31747/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31747/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31747/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31747/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31747/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31747/6']
+20170328:07:45:20:102819 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot register file(s) to a table which is hash distributed.
+20170328:07:45:20:100926 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1esusage1dat.paq']
+20170328:07:45:21:103658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:22:103908 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:28:101459 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_register_test_not_paq']
+20170328:07:45:29:103908 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot register file(s) to a table which is hash distributed.
+20170328:07:45:36:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/31912/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31912/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31912/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31912/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31912/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31912/6']
+20170328:07:45:36:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/31753/1', 'hdfs://localhost:8020/hawq_default/16385/16508/31753/2', 'hdfs://localhost:8020/hawq_default/16385/16508/31753/3', 'hdfs://localhost:8020/hawq_default/16385/16508/31753/4', 'hdfs://localhost:8020/hawq_default/16385/16508/31753/5', 'hdfs://localhost:8020/hawq_default/16385/16508/31753/6']
+20170328:07:45:42:105402 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:42:105402 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:45:42:105402 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:45:43:105402 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:45:44:103658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-No files to be registered.
+20170328:07:45:44:103658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:45:44:105674 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:45:105774 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:45:105774 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "Parquet_FileLocations.PageSize" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:46:106036 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:46:106036 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "Parquet_FileLocations.RowGroupSize" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:47:106115 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:48:106115 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "Parquet_FileLocations.Files.size" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:48:106184 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:49:106184 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "Parquet_Schema.type" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:49:106252 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:50:106252 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "AO_FileLocations.Checksum" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:50:106321 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:50:106321 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:45:51:102859 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1efhawq_register_hawq.paq']
+20170328:07:45:51:102859 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(-1) in yaml configuration file should not be less than 0.
+20170328:07:45:51:106397 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:52:102849 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1eshawq_register_hawq.paq']
+20170328:07:45:52:106624 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:58:106321 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-17/03/28 07:45:57 WARN ipc.Client: Failed to connect to server: localhost/127.0.0.1:80: try once and fail.
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:744)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:650)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:745)
+	at org.apache.hadoop.ipc.Client$Connection.access$3200(Client.java:397)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1618)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1449)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1396)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:233)
+	at com.sun.proxy.$Proxy10.getFileInfo(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.getFileInfo(ClientNamenodeProtocolTranslatorPB.java:816)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:278)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:194)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:176)
+	at com.sun.proxy.$Proxy11.getFileInfo(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.getFileInfo(DFSClient.java:2158)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$25.doCall(DistributedFileSystem.java:1423)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$25.doCall(DistributedFileSystem.java:1419)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.getFileStatus(DistributedFileSystem.java:1419)
+	at org.apache.hadoop.fs.Globber.getFileStatus(Globber.java:57)
+	at org.apache.hadoop.fs.Globber.glob(Globber.java:252)
+	at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:1674)
+	at org.apache.hadoop.fs.shell.PathData.expandAsGlob(PathData.java:326)
+	at org.apache.hadoop.fs.shell.Command.expandArgument(Command.java:235)
+	at org.apache.hadoop.fs.shell.Command.expandArguments(Command.java:218)
+	at org.apache.hadoop.fs.shell.FsCommand.processRawArguments(FsCommand.java:103)
+	at org.apache.hadoop.fs.shell.Command.run(Command.java:165)
+	at org.apache.hadoop.fs.FsShell.run(FsShell.java:297)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:76)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:90)
+	at org.apache.hadoop.fs.FsShell.main(FsShell.java:350)
+17/03/28 07:45:57 WARN retry.RetryInvocationHandler: Exception while invoking ClientNamenodeProtocolTranslatorPB.getFileInfo over null. Not retrying because try once and fail.
+java.net.ConnectException: Call From 54516f48-f750-4b98-4724-1feba4392efc/10.254.0.154 to localhost:80 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:801)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:732)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1556)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1496)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1396)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:233)
+	at com.sun.proxy.$Proxy10.getFileInfo(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.getFileInfo(ClientNamenodeProtocolTranslatorPB.java:816)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:278)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:194)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:176)
+	at com.sun.proxy.$Proxy11.getFileInfo(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.getFileInfo(DFSClient.java:2158)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$25.doCall(DistributedFileSystem.java:1423)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$25.doCall(DistributedFileSystem.java:1419)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.getFileStatus(DistributedFileSystem.java:1419)
+	at org.apache.hadoop.fs.Globber.getFileStatus(Globber.java:57)
+	at org.apache.hadoop.fs.Globber.glob(Globber.java:252)
+	at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:1674)
+	at org.apache.hadoop.fs.shell.PathData.expandAsGlob(PathData.java:326)
+	at org.apache.hadoop.fs.shell.Command.expandArgument(Command.java:235)
+	at org.apache.hadoop.fs.shell.Command.expandArguments(Command.java:218)
+	at org.apache.hadoop.fs.shell.FsCommand.processRawArguments(FsCommand.java:103)
+	at org.apache.hadoop.fs.shell.Command.run(Command.java:165)
+	at org.apache.hadoop.fs.FsShell.run(FsShell.java:297)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:76)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:90)
+	at org.apache.hadoop.fs.FsShell.main(FsShell.java:350)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:744)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:495)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:650)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:745)
+	at org.apache.hadoop.ipc.Client$Connection.access$3200(Client.java:397)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1618)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1449)
+	... 29 more
+test: Call From 54516f48-f750-4b98-4724-1feba4392efc/10.254.0.154 to localhost:80 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+20170328:07:45:58:106321 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:80/hawq_default/16385/16387/16518/1 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:45:58:107086 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:45:59:107086 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Wrong configuration yaml file format: "TableName" attribute does not exist.
+ See example in "hawq register --help".
+20170328:07:45:59:107204 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:00:101459 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File hdfs://localhost:8020/hawq_register_test_not_paq is not parquet format
+20170328:07:46:00:107204 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Invalid yaml file, 'Constraint' is missing.
+20170328:07:46:00:105674 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Path 'hdfs://localhost:8020/usage1_folder_tmpNotExist' does not exist in hdfs
+20170328:07:46:01:100926 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:46:01:107560 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:02:107625 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:02:107625 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:46:09:107625 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/hawq_default/16385/16387/17015/1 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:46:10:107560 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:--e option is only supported with single file case.
+20170328:07:46:19:108912 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:22:109208 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:22:109208 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:46:25:109577 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:25:109577 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:46:28:109873 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:46:30:106397 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_register_test/hawq1.paq', 'hdfs://localhost:8020/hawq_register_test/hawq2.paq', 'hdfs://localhost:8020/hawq_register_test/hive1.paq', 'hdfs://localhost:8020/hawq_register_test/hive2.paq', 'hdfs://localhost:8020/hawq_register_test/t/hawq.paq', 'hdfs://localhost:8020/hawq_register_test/t/hive.paq']
+20170328:07:46:31:106624 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1efhawq_register_hawq.paq']
+20170328:07:46:33:102849 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:46:40:106624 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Specified file size(658) should not exceed actual length(657) of file hdfs://localhost:8020/tu1efhawq_register_hawq.paq.
+20170328:07:46:44:111073 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:47:00:108912 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1esusage1dat.paq']
+20170328:07:47:07:109873 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/usage1_folder_tmp/files_incomplete.yml', 'hdfs://localhost:8020/usage1_folder_tmp/tu1ffhawq_register_hawq.paq']
+20170328:07:47:13:109208 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:47:14:113127 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:47:14:113127 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Column number of table in yaml file is not equals to the column number of table testhawqregister_testusage2case1errorcolumnnum.nt.
+20170328:07:47:16:109577 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:47:25:111073 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1eshawq_register_hawq.paq']
+20170328:07:47:28:109208 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32642/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32642/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32642/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32642/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32642/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32642/6']
+20170328:07:47:41:108912 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:47:41:109873 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File hdfs://localhost:8020/usage1_folder_tmp/files_incomplete.yml is not parquet format
+20170328:07:47:48:116048 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:47:48:116048 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:47:58:117148 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:06:111073 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:48:11:118406 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:11:118406 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:48:12:118551 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:12:118551 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:48:17:118993 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:23:109208 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:48:31:116048 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:48:31:116048 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Hawq register does not support file path with regex: hdfs://localhost:8020/hawq_default/16385/16508/32675/../*/6.
+20170328:07:48:34:120278 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:34:120278 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:48:35:117148 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1esusage1dat.paq']
+20170328:07:48:55:118993 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/tu1eshawq_register_hawq.paq']
+20170328:07:48:56:069841 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:48:57:122463 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:48:57:122463 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:48:58:118406 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:49:13:117148 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:49:14:118406 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32707/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32707/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32707/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32707/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32707/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32707/6']
+20170328:07:49:20:120278 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:49:25:124853 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:49:25:124853 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:49:33:120278 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32737/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32737/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32737/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32737/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32737/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32737/6']
+20170328:07:49:33:118993 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:49:35:125814 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:49:37:118551 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:49:37:118551 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Bucket number of testhawqregister_testusage2case1errorhashtableregistry.nt_1 is not consistent with previous bucket number.
+20170328:07:49:39:126163 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:49:39:126163 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:49:39:106397 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:49:40:122463 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:49:52:127481 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:49:53:127481 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:49:53:122463 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32743/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32743/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32743/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32743/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32743/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32743/6']
+20170328:07:50:00:122463 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(2700) in yaml configuration file should not exceed actual length(270) of file hdfs://localhost:8020/hawq_default/16385/16508/32743/6.
+20170328:07:50:06:124853 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:50:07:125814 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/usage1tmp/a.paq', 'hdfs://localhost:8020/usage1tmp/b.paq']
+20170328:07:50:16:129780 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:16:129780 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:20:124853 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32754/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32754/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32754/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32754/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32754/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32754/6']
+20170328:07:50:20:124853 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(270.0) in yaml configuration file should be int type.
+20170328:07:50:21:126163 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:50:21:126163 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Distribution policy of testhawqregister_testusage2case1errorhashtableregistry.nt_1 from yaml file is not consistent with the policy of existing table.
+20170328:07:50:23:130381 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:23:130381 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:24:120278 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:50:25:130730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:26:130730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Bucketnum should not be zero, please check your yaml configuration file.
+20170328:07:50:29:130381 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:50:29:130381 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Distribution policy of testhawqregister_testusage2case1errorhashtableregistry.nt_1 from yaml is not consistent with the policy of existing table.
+20170328:07:50:30:000687 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:30:000687 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:34:127481 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:50:37:001640 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:37:001640 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:39:002164 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:39:002164 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:42:002799 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:50:43:002799 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:50:47:002164 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/usage2_include1 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:50:48:127481 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32770/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32770/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32770/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32770/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32770/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32770/6']
+20170328:07:50:48:127481 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(-270) in yaml configuration file should not be less than 0.
+20170328:07:50:57:129780 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:03:004777 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:03:004777 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Cannot find yaml file : /tmp/build/d29698ca/featuretest/ManagementTool/usage2case1/yaml_not_exist.yml
+20170328:07:51:04:004952 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:04:004952 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:09:005645 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:09:005656 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:09:125814 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:51:09:005645 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:10:004952 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/hawq_default/16385/16508//1 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:51:11:000687 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:11:000687 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Distribution policy of testhawqregister_testusage2case1errorhashtableregistry.nt_2 from yaml file is not consistent with the policy of existing table.
+20170328:07:51:15:005645 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:17:001640 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:18:007144 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:18:007144 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:21:002799 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:21:002799 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Database encoding from yaml configuration file(Unicode) is not consistent with encoding from input args(UTF8).
+20170328:07:51:24:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:24:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:25:008214 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:25:008214 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:26:005645 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32843/1']
+20170328:07:51:27:008658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:29:001640 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32808/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32808/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32808/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32808/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32808/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32808/6']
+20170328:07:51:31:009052 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:31:009052 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:37:005645 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:51:45:010744 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:51:45:010744 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:51:54:007144 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:51:55:008658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/usage1tmp/a.paq', 'hdfs://localhost:8020/usage1tmp/b.paq']
+20170328:07:52:00:118406 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:52:07:008214 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:52:07:008214 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Files to be registered must be multiple times to the bucket number of hash table.
+20170328:07:52:07:007144 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32854/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32854/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32854/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32854/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32854/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32854/6']
+20170328:07:52:08:009052 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:52:08:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:52:16:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:52:17:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:52:21:009052 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32887/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32887/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32887/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32887/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32887/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32887/6']
+20170328:07:52:21:010744 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:52:21:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32876/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32876/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32876/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32876/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32876/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32876/6']
+20170328:07:52:21:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32860/1']
+20170328:07:52:33:010744 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32898/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32898/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32898/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32898/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32898/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32898/6']
+20170328:07:52:52:008658 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:52:52:007144 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:52:57:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:52:57:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:53:09:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:53:09:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:53:12:019865 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:53:33:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:53:45:019865 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/usage1tmp/a.paq', 'hdfs://localhost:8020/usage1tmp/b.paq']
+20170328:07:53:52:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32924/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32924/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32924/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32924/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32924/6', 'hdfs://localhost:8020/hawq_default/16385/16508/32924/5']
+20170328:07:53:52:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32914/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32914/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32914/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32914/6', 'hdfs://localhost:8020/hawq_default/16385/16508/32914/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32914/1']
+20170328:07:54:19:001640 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:54:24:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:54:30:025949 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:54:30:025949 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:54:37:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32940/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32940/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32940/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32940/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32940/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32940/6']
+20170328:07:54:37:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32908/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32908/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32908/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32908/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32908/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32908/6']
+20170328:07:54:52:019865 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:54:58:025949 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:55:01:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:55:06:025949 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32950/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32950/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32950/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32950/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32950/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32950/6']
+20170328:07:55:11:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32935/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32935/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32935/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32935/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32935/6', 'hdfs://localhost:8020/hawq_default/16385/16508/32935/5']
+20170328:07:55:11:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32930/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/6', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/9', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/8', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/10', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/11', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/12', 'hdfs://localhost:8020/hawq_default/16385/16508/32930/13']
+20170328:07:55:14:009052 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:55:20:010744 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:55:21:018359 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:55:25:008093 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:55:35:032251 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:55:59:032251 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/usage1tmp/a.paq', 'hdfs://localhost:8020/usage1tmp/b.paq']
+20170328:07:56:14:035891 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:56:18:035891 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:56:41:035891 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:56:53:038419 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:56:53:038419 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:56:57:035891 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/32961/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32961/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32961/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32961/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32961/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32961/6']
+20170328:07:56:59:039156 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:56:59:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:56:59:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:56:59:039156 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:57:06:032251 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:57:15:025949 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:57:24:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:57:25:039156 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/hawq_default/16385/16508/@TABLE_OID_NEW2@/1 is not a file in hdfs, please check the yaml configuration file.
+20170328:07:57:29:042586 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:57:29:042586 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:57:32:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: []
+20170328:07:57:32:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32956/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32956/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32956/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32956/6', 'hdfs://localhost:8020/hawq_default/16385/16508/32956/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32956/1']
+20170328:07:57:33:042586 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:57:42:038419 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:57:42:038419 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Files to be registered must be multiple times to the bucket number of hash table.
+20170328:07:57:42:044866 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:57:43:042586 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33003/1']
+20170328:07:57:46:014183 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:57:48:044866 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Column number of table in yaml file is not equals to the column number of table testhawqregister_testusage2case2errorcolumnnum.nt.
+20170328:07:57:53:045702 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:57:53:045702 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:57:56:042586 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:58:09:047573 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:58:09:047573 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:58:13:047573 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:58:20:047573 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33035/1']
+20170328:07:58:28:045702 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:58:28:045702 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Hawq register does not support file path with regex: hdfs://localhost:8020/hawq_default/16385/16508/33026/../*/5.
+20170328:07:58:28:047573 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:58:32:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:58:32:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:58:32:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:58:32:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:58:33:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:58:33:051689 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:58:33:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:58:33:051689 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:58:37:051689 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:58:45:039162 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:58:48:035891 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:58:54:051689 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33073/1']
+20170328:07:59:04:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:59:04:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:59:11:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:59:11:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:59:16:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:59:17:051689 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:07:59:18:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:59:18:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:59:23:058344 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:59:23:058344 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:59:24:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33058/1', 'hdfs://localhost:8020/hawq_default/16385/16508/33058/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33058/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33058/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33058/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33058/5']
+20170328:07:59:24:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/33046/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33046/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33046/5', 'hdfs://localhost:8020/hawq_default/16385/16508/33046/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33046/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33046/1']
+20170328:07:59:27:058789 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:07:59:27:058789 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:07:59:29:058344 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:07:59:29:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33068/1', 'hdfs://localhost:8020/hawq_default/16385/16508/33068/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33068/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33068/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33068/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33068/5']
+20170328:07:59:29:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/33049/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33049/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33049/5', 'hdfs://localhost:8020/hawq_default/16385/16508/33049/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33049/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33049/1']
+20170328:07:59:29:051628 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(210.0) in yaml configuration file should be int type.
+20170328:07:59:29:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33059/1', 'hdfs://localhost:8020/hawq_default/16385/16508/33059/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33059/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33059/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33059/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33059/5']
+20170328:07:59:29:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/33043/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33043/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33043/5', 'hdfs://localhost:8020/hawq_default/16385/16508/33043/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33043/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33043/1']
+20170328:07:59:31:051291 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(2100) in yaml configuration file should not exceed actual length(210) of file hdfs://localhost:8020/hawq_default/16385/16508/33058/5.
+20170328:07:59:37:058344 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33110/1']
+20170328:07:59:53:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:00:02:058344 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:00:04:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33089/1', 'hdfs://localhost:8020/hawq_default/16385/16508/33089/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33089/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33089/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33089/5', 'hdfs://localhost:8020/hawq_default/16385/16508/33089/6']
+20170328:08:00:04:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/32998/1', 'hdfs://localhost:8020/hawq_default/16385/16508/32998/2', 'hdfs://localhost:8020/hawq_default/16385/16508/32998/3', 'hdfs://localhost:8020/hawq_default/16385/16508/32998/4', 'hdfs://localhost:8020/hawq_default/16385/16508/32998/5', 'hdfs://localhost:8020/hawq_default/16385/16508/32998/6']
+20170328:08:00:07:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:00:15:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33100/1', 'hdfs://localhost:8020/hawq_default/16385/16508/33100/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33100/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33100/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33100/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33100/5']
+20170328:08:00:15:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/33079/2', 'hdfs://localhost:8020/hawq_default/16385/16508/33079/4', 'hdfs://localhost:8020/hawq_default/16385/16508/33079/5', 'hdfs://localhost:8020/hawq_default/16385/16508/33079/6', 'hdfs://localhost:8020/hawq_default/16385/16508/33079/3', 'hdfs://localhost:8020/hawq_default/16385/16508/33079/1']
+20170328:08:00:15:056634 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-File size(210.0) in yaml configuration file should be int type.
+20170328:08:00:16:058789 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:00:20:019432 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:00:45:064811 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:00:45:064811 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:00:48:065203 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:00:48:065194 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:00:48:065203 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:00:48:065194 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:01:11:064811 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-hdfs://localhost:8020/usage2_include2 is not a file in hdfs, please check the yaml configuration file.
+20170328:08:01:40:068174 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:02:01:065194 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:02:01:065194 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Bucket number of testhawqregister_testusage2case2bucket0.nt is not consistent with previous bucket number.
+20170328:08:02:02:065203 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:02:02:065203 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[ERROR]:-Database encoding from yaml configuration file(Unicode) is not consistent with encoding from input args(UTF8).
+20170328:08:04:11:051313 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:04:22:055673 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:05:28:075641 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:05:28:075641 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:05:32:075641 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:06:14:075641 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33611/1']
+20170328:08:06:27:075641 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:07:19:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:07:19:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:07:28:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:07:42:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33744/1']
+20170328:08:07:42:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/33693/1']
+20170328:08:08:00:076712 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:10:24:078030 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:10:24:078030 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:11:04:078030 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:12:07:078030 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/33908/1']
+20170328:08:12:48:078030 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:14:50:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:14:50:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:14:58:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:15:12:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/34076/1']
+20170328:08:15:12:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/34006/1']
+20170328:08:15:50:080001 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:16:23:083730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:16:24:083730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:16:45:083730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:16:55:083730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/34447/1', 'hdfs://localhost:8020/hawq_default/16385/16508/34447/2', 'hdfs://localhost:8020/hawq_default/16385/16508/34447/3', 'hdfs://localhost:8020/hawq_default/16385/16508/34447/4', 'hdfs://localhost:8020/hawq_default/16385/16508/34447/5', 'hdfs://localhost:8020/hawq_default/16385/16508/34447/6']
+20170328:08:17:26:083730 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:18:05:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:18:05:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:18:50:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:18:58:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/34907/1', 'hdfs://localhost:8020/hawq_default/16385/16508/34907/2', 'hdfs://localhost:8020/hawq_default/16385/16508/34907/3', 'hdfs://localhost:8020/hawq_default/16385/16508/34907/4', 'hdfs://localhost:8020/hawq_default/16385/16508/34907/5', 'hdfs://localhost:8020/hawq_default/16385/16508/34907/6']
+20170328:08:18:58:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/34603/1', 'hdfs://localhost:8020/hawq_default/16385/16508/34603/2', 'hdfs://localhost:8020/hawq_default/16385/16508/34603/3', 'hdfs://localhost:8020/hawq_default/16385/16508/34603/4', 'hdfs://localhost:8020/hawq_default/16385/16508/34603/5', 'hdfs://localhost:8020/hawq_default/16385/16508/34603/6']
+20170328:08:19:27:086230 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:19:51:089627 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:19:51:089627 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:20:24:089627 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:20:52:089627 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/35087/1', 'hdfs://localhost:8020/hawq_default/16385/16508/35087/2', 'hdfs://localhost:8020/hawq_default/16385/16508/35087/3', 'hdfs://localhost:8020/hawq_default/16385/16508/35087/4', 'hdfs://localhost:8020/hawq_default/16385/16508/35087/5', 'hdfs://localhost:8020/hawq_default/16385/16508/35087/6']
+20170328:08:22:39:089627 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:22:41:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:22:41:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:23:26:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:23:34:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/36736/1', 'hdfs://localhost:8020/hawq_default/16385/16508/36736/2', 'hdfs://localhost:8020/hawq_default/16385/16508/36736/3', 'hdfs://localhost:8020/hawq_default/16385/16508/36736/4', 'hdfs://localhost:8020/hawq_default/16385/16508/36736/5', 'hdfs://localhost:8020/hawq_default/16385/16508/36736/6']
+20170328:08:23:34:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/35488/1', 'hdfs://localhost:8020/hawq_default/16385/16508/35488/2', 'hdfs://localhost:8020/hawq_default/16385/16508/35488/3', 'hdfs://localhost:8020/hawq_default/16385/16508/35488/4', 'hdfs://localhost:8020/hawq_default/16385/16508/35488/5', 'hdfs://localhost:8020/hawq_default/16385/16508/35488/6']
+20170328:08:26:12:098071 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:26:14:103691 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:26:14:103691 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:26:17:103691 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:26:24:103691 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/39496/1']
+20170328:08:26:31:103691 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:26:32:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:26:32:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:26:38:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:26:45:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/39506/1']
+20170328:08:26:45:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/39501/1']
+20170328:08:26:52:104179 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:26:54:104793 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:26:54:104793 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:26:58:104793 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:27:05:104793 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/39511/1']
+20170328:08:27:21:104793 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Hawq Register Succeed.
+20170328:08:27:22:105525 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-try to connect database localhost:5432 hawq_feature_test_db
+20170328:08:27:23:105525 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check...
+20170328:08:27:30:105525 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Files check done.
+20170328:08:27:37:105525 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-New file(s) to be registered: ['hdfs://localhost:8020/hawq_default/16385/16508/39521/1']
+20170328:08:27:37:105525 hawqregister:54516f48-f750-4b98-4724-1feba4392efc:gpadmin-[INFO]:-Catalog info need to be updated for these files: ['hdfs://localhost:8020/hawq_default/16385/16508/39516/1']
