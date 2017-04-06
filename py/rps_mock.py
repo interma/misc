@@ -47,6 +47,13 @@ class RPSHandler(tornado.web.RequestHandler):
             res["access"].append({"resource":resource,"privileges":privileges,"allowed":allowed})
         return res
 
+    '''
+    {"allowExceptions": [], "denyExceptions": [], "denyPolicyItems": [], "description": "no description", "isAuditEnabled": true, "isEnabled": true, "name": "pxfpolicy1-3", "policyItems": [{"accesses": [{"isAllowed": true, "type": "usage-schema"}], "conditions": [], "delegateAdmin": true, "groups": null, "users": ["userpxf1"]}], "resources": {"database": {"isExcludes": false, "isRecursive": false, "values": ["hawq_feature_test_db"]}, "schema": {"isExcludes": false, "isRecursive": false, "values": ["testhawqranger_pxfhcatalogtest"]}, "table": {"isExcludes": false, "isRecursive": false, "values": ["*"]}}, "service": "hawq", "version": 3}
+
+    '''
+    def dump_request(self, jreq):
+        pass
+
     def get(self):
 	self.write("Hello, world")
 
@@ -65,9 +72,11 @@ class RPSHandler(tornado.web.RequestHandler):
         
         allowed = True
         if not ALL_GRANT:
-            yn = raw_input("[y/n]: ")
+            yn = raw_input("[y/yd/n]: ")
             if yn and yn.strip() == 'n':
                 allowed = False
+            if yn and yn.strip() == 'yd':
+                self.dump_request(jreq)
         jres = self.make_response(jreq, allowed)
         self.write(json.dumps(jres, sort_keys=True))
 
