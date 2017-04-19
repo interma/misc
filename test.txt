@@ -7,5 +7,4 @@
 [User Mailing List](mailto:user@hawq.incubator.apache.org) |
 [Q&A Collections](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=65144284) |
 [Open Defect](https://issues.apache.org/jira/browse/HAWQ)
-i
 
