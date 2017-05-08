@@ -35,7 +35,7 @@ set history=500
 set lazyredraw
 set wmh=0
 set t_Co=256              " color numbers
-set nowrap                " do not wrap lines
+set wrap                " do not wrap lines
 " 代码折叠
 " set foldmethod=marker
 " set foldmethod=syntax
@@ -102,10 +102,11 @@ set backupdir=~/temp
 
 set tags=./tags,/usr/include/tags,tags;
 
-set cscopequickfix=s-,c-,d-,i-,t-,e-
-cs add cscope.out 
-set completeopt=longest,menu
+"set cscopequickfix=s-,c-,d-,i-,t-,e-
+"cs add cscope.out 
 
+
+set completeopt=longest,menu
 set whichwrap=b,s,<,>,[,]
 " set ai
 set nu
@@ -126,13 +127,15 @@ nmap <F4> :make<CR>
 map <F5> :set paste<CR>
 map <F6> :set nopaste<CR>
 set pastetoggle=<F5>
-imap jj <ESC>
-nmap ww :w<CR>
-imap ww <ESC>:w<CR>
+imap aa <ESC>
+nmap aw :w<CR>
+ "imap jw <ESC>:w<CR>
 nmap <C-j> :bn<cr> 
 nmap bn :bn<cr> 
 nmap <C-k> :bp<cr>
 nmap bp :bp<cr> 
+
+" move in insert quickly
 
 " cscope key
 nmap <C-_>s :cs find s <C-R>=expand("<cword>")<CR><CR>
@@ -171,3 +174,31 @@ let OmniCpp_ShowScopeInAbbr = 1
 let OmniCpp_ShowPrototypeInAbbr = 1
 
 set autowrite
+execute pathogen#infect()
+call pathogen#helptags()
+
+
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+" Multiple Plug commands can be written in a single line using | separators
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+" :FixWhitespace
+Plug 'bronson/vim-trailing-whitespace'
+
+Plug 'hynek/vim-python-pep8-indent'
+Plug 'ervandew/supertab'
+
+" Initialize plugin system
+call plug#end()
+

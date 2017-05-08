@@ -18,6 +18,7 @@ void foo1()
 	close(fd);
 }
 
+
 void foo2()
 {
 	char template[] = "/tmp/my_folder/fileXXXXXX"; //my_folder need created manually
@@ -26,6 +27,7 @@ void foo2()
 	int fd = open(file_name, O_CREAT | O_TRUNC | O_WRONLY);
 	write(fd, content, strlen(content));
 	close(fd);
+	
 }
 
 int main() 
