@@ -1,12 +1,12 @@
 "--------------------------------------------------
 " Character encoding
-set termencoding=utf-8        
+set termencoding=utf-8
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936,gbk,big5,latin1
 
 
 "--------------------------------------------------
 " Base settings
-set guifont=Fixedsys\ 10 
+set guifont=Fixedsys\ 10
 set nocompatible          " We're running Vim, not Vi!
 syntax on                 " syntax highlingt
 set autoindent            " automatical code indent
@@ -56,8 +56,8 @@ au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g'
 "--------------------------------------------------
 " Syntax coloring (~/.vim/colors/)
 " available colors: `ls /usr/share/vim/vim??/colors`
-" colorscheme summerfruit256 
-colorscheme herald 
+" colorscheme summerfruit256
+colorscheme herald
 
 "---------------------------------------------------
 " Tab size
@@ -72,24 +72,24 @@ colorscheme herald
 
 "状态行颜色
 hi statusline term=underline ctermbg=darkgray ctermfg=gray
-"在状态行上显示光标所在位置的行号和列号 
-set ruler 
-set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%) 
+"在状态行上显示光标所在位置的行号和列号
+set ruler
+set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
 set laststatus=2             " 开启状态栏信息
 set cmdheight=1              " 命令行的高度，默认为1，这里设为2
-set statusline=%F%m%r%h%w\ \[POS=%l,%v][%p%%]\%{strftime(\"%Y/%m/%d\ %H:%M\")} 
+set statusline=%F%m%r%h%w\ \[POS=%l,%v][%p%%]\%{strftime(\"%Y/%m/%d\ %H:%M\")}
 
 "多标签浏览设置标签颜色
 highlight TabLine term=underline ctermbg=darkgray ctermfg=gray
 highlight TabLineSel term=bold cterm=bold ctermbg=darkgreen ctermfg=white
 "高亮光标所在行
 set cursorline
-"hi CursorLine cterm=NONE ctermbg=darkgray 
+"hi CursorLine cterm=NONE ctermbg=darkgray
 "hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
 
 """"""""""""""""""""""""""""""PLUGIN""""""""""""""""""""""""""""
 
-let g:winManagerWindowLayout = "TagList" 
+let g:winManagerWindowLayout = "TagList"
 "let g:winManagerWindowLayout='FileExplorer|TagList'
 nmap wm :WMToggle<CR>
 let g:miniBufExplMapWindowNavArrows = 1
@@ -103,7 +103,7 @@ set backupdir=~/temp
 set tags=./tags,/usr/include/tags,tags;
 
 "set cscopequickfix=s-,c-,d-,i-,t-,e-
-"cs add cscope.out 
+"cs add cscope.out
 
 
 set completeopt=longest,menu
@@ -130,10 +130,10 @@ set pastetoggle=<F5>
 imap aa <ESC>
 nmap aw :w<CR>
  "imap jw <ESC>:w<CR>
-nmap <C-j> :bn<cr> 
-nmap bn :bn<cr> 
+nmap <C-j> :bn<cr>
+nmap bn :bn<cr>
 nmap <C-k> :bp<cr>
-nmap bp :bp<cr> 
+nmap bp :bp<cr>
 
 " move in insert quickly
 
@@ -156,9 +156,9 @@ map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 iabbrev uns; using namespace std;
 
 " c-support setting
-let g:C_AuthorName      =   'interma'     
-"let g:C_AuthorRef       =   'IM'                         
-let g:C_Email           =   'interma@outlook.com'           
+let g:C_AuthorName      =   'interma'
+"let g:C_AuthorRef       =   'IM'
+let g:C_Email           =   'interma@outlook.com'
 " doxygenToolkit setting
 let g:doxygenToolkit_authorName="InterMa"
 let g:doxygenToolkit_briefTag_funcName="yes"
@@ -172,6 +172,9 @@ let OmniCpp_MayCompleteArrow = 1
 let OmniCpp_MayCompleteScope = 1
 let OmniCpp_ShowScopeInAbbr = 1
 let OmniCpp_ShowPrototypeInAbbr = 1
+
+" Trigger configuration.
+" let g:UltiSnipsExpandTrigger="<tab>"
 
 set autowrite
 execute pathogen#infect()
@@ -198,6 +201,9 @@ Plug 'bronson/vim-trailing-whitespace'
 
 Plug 'hynek/vim-python-pep8-indent'
 Plug 'ervandew/supertab'
+
+Plug 'jeetsukumaran/vim-buffergator'
+
 
 " Initialize plugin system
 call plug#end()
