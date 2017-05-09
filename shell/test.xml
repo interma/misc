@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+        <property>
+                <name>hawq_master_address_host</name>
+                <value>localhost</value>
+                <description>The host name of hawq master.</description>
+        </property>
+
+        <property>
+                <name>hawq_master_address_port</name>
+                <value>5432</value>
+                <description>The port of hawq master.</description>
+        </property>
+
+        <property>
+                <name>hawq_standby_address_host</name>
+                <value>none</value>
+                <description>The host name of hawq standby master.</description>
+        </property>
+        <property>
+                <name>hawq_segment_address_port</name>
+                <value>40000</value>
+                <description>The port of hawq segment.</description>
+        </property>
+</configuration>
