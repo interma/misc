@@ -8,5 +8,6 @@
 |_|_| |_|\__\___|_|  |_| |_| |_|\__,_| |_| |_| |_|_|___/\___|
 ```
 
-1. conf
-2. code example
+1. dot files
+2. configurations 
+3. code examples
