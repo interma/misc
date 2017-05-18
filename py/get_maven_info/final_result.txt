@@ -1,0 +1,88 @@
+postgresql-9.1-901-1.jdbc4.jar	1.jdbc4	BSD	http://jdbc.postgresql.org	http://central.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar	Postgresql
+ranger-plugin-admin-2.2.0.0.jar	2.2.0.0				
+activation-1.1.jar	1.1	CDDL 1.0	http://java.sun.com/products/javabeans/jaf/index.jsp	http://central.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar	The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data
+apacheds-i18n-2.0.0-M15.jar	M15				
+apacheds-kerberos-codec-2.0.0-M15.jar	M15				
+api-asn1-api-1.0.0-M20.jar	M20	Apache 2.0	/tags/directory	api-asn1-ber/1.0.0-RC2	A BER Codec Implementation for ASN.1
+api-util-1.0.0-M20.jar	M20				
+asm-3.1.jar	3.1	BSD	http://central.maven.org/maven2/asm/asm/3.1/asm-3.1.jar	http://central.maven.org/maven2/asm/asm/3.1/asm-3.1.jar	ASM Core
+avro-1.7.4.jar	1.7.4	Apache 2.0	http://avro.apache.org	http://central.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar	Avro core components
+commonj.sdo-2.1.1.jar	2.1.1	EDL 1.0	http://www.eclipse.org/eclipselink	http://central.maven.org/maven2/org/eclipse/persistence/eclipselink/2.5.1/eclipselink-2.5.1.jar	EclipseLink build based upon Git transaction 44060b6
+commons-beanutils-1.7.0.jar	1.7.0	Apache	http://central.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar	http://central.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar	Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.
+commons-beanutils-core-1.8.0.jar	1.8.0	Apache 2.0	/tags/reflection	commons-beanutils-core/1.8.3	Commons BeanUtils Core
+commons-cli-1.2.jar	1.2	Apache 2.0	http://commons.apache.org/cli/	http://central.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar	Commons Cli
+commons-codec-1.4.jar	1.4	Apache 2.0	http://commons.apache.org/codec/	http://central.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar	The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.
+commons-collections-3.2.1.jar	3.2.1				
+commons-compress-1.4.1.jar	1.4.1				
+commons-configuration-1.6.jar	1.6				
+commons-daemon-1.0.13.jar	1.0.13				
+commons-digester-1.8.jar	1.8	Apache 2.0	http://jakarta.apache.org	http://central.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar	The Digester package lets you configure an XML to Java object mapping module which triggers certain actions called rules whenever a particular pattern of nested XML elements is recognized.
+commons-httpclient-3.1.jar	3.1	Apache 2.0	http://jakarta.apache.org/httpcomponents/httpclient-3.x/	http://central.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar	The HttpClient component supports the client-side of RFC 1945 (HTTP/1.0) and RFC 2616 (HTTP/1.1) , several related specifications (RFC 2109 (Cookies) , RFC 2617 (HTTP Authentication) , etc.), and provides a framework by which new request types (methods) or HTTP extensions can be created easily.
+commons-io-2.4.jar	2.4	Apache 2.0	http://commons.apache.org/io/	http://central.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar	The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.
+commons-lang-2.6.jar	2.6	Apache 2.0	http://central.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar	http://central.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar	Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.
+commons-logging-1.2.jar	1.2	Apache 2.0	http://commons.apache.org/proper/commons-logging/	http://central.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar	Version 99.0-does-not-exist is a dummy implementation with actually does nothing, and most of all: it has no dependencies. VERSION 99.0-does-not-exist IS NOT IN ANY WAY AFFILIATED WITH THE ORIGINAL DEVELOPERS of commons-logging NOR WITH APACHE.
+commons-math3-3.1.1.jar	3.1.1	Apache 2.0	http://commons.apache.org/math/	http://central.maven.org/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar	The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.
+commons-net-3.1.jar	3.1	Apache 2.0	http://commons.apache.org/net/	http://central.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar	Apache Commons Net library contains a collection of network utilities and protocol implementations. Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois
+curator-client-2.7.1.jar	2.7.1	Apache 2.0	http://central.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar	http://central.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar	All of the recipes listed on the ZooKeeper recipes doc (except two phase commit).
+curator-framework-2.7.1.jar	2.7.1	Apache 2.0	/tags/apache	curator-framework/3.3.0	High-level API that greatly simplifies using ZooKeeper.
+curator-recipes-2.7.1.jar	2.7.1	Apache 2.0	http://central.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar	http://central.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar	All of the recipes listed on the ZooKeeper recipes doc (except two phase commit).
+eclipselink-2.5.2.jar	2.5.2	EDL 1.0	http://www.eclipse.org/eclipselink	http://central.maven.org/maven2/org/eclipse/persistence/eclipselink/2.5.2-M1/eclipselink-2.5.2-M1.jar	EclipseLink build based upon Git transaction 44060b6
+gson-2.2.4.jar	2.2.4	Apache 2.0	http://www.google.com	http://central.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar	Gson
+guava-11.0.2.jar	11.0.2	Apache 2.0	http://central.maven.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.jar	http://central.maven.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.jar	Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has only one code dependency - javax.annotation, per the JSR-305 spec.
+hadoop-annotations-2.7.1.jar	2.7.1	Apache 2.0	/tags/apache	hadoop-annotations/3.0.0-alpha2	Apache Hadoop Annotations
+hadoop-auth-2.7.1.jar	2.7.1	Apache 2.0	/repos/central	http://central.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.3/hadoop-auth-2.7.3.jar	Apache Hadoop Auth - Java HTTP SPNEGO
+hadoop-common-2.7.1.jar	2.7.1	Apache 2.0	/repos/central	http://central.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.1/hadoop-common-2.7.1.jar	Apache Hadoop Common
+hadoop-hdfs-2.7.1.jar	2.7.1	Apache 2.0	http://central.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.1/hadoop-hdfs-2.7.1.jar	http://central.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.1/hadoop-hdfs-2.7.1.jar	Apache Hadoop HDFS
+htrace-core-3.1.0-incubating.jar	incubating				
+httpclient-4.5.2.jar	4.5.2	Apache 2.0	http://hc.apache.org/httpcomponents-client	http://central.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar	Apache HttpComponents Client
+httpcore-4.4.4.jar	4.4.4	Apache 2.0	http://hc.apache.org/httpcomponents-core-ga	http://central.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar	Apache HttpComponents Core (blocking I/O)
+httpmime-4.5.2.jar	4.5.2	Apache 2.0	http://hc.apache.org/httpcomponents-client	http://central.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar	Apache HttpComponents HttpClient - MIME coded entities
+jackson-core-asl-1.9.13.jar	1.9.13	Apache 2.0	http://jackson.codehaus.org	http://central.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar	Jackson is a high-performance JSON processor (parser, generator)
+jackson-jaxrs-1.9.13.jar	1.9.13	Apache 2.0	http://central.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar	http://central.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar	Jax-RS provider for JSON content type, based on Jackson JSON processor's data binding functionality.
+jackson-mapper-asl-1.9.13.jar	1.9.13				
+jackson-xc-1.9.13.jar	1.9.13	Apache 2.0	http://central.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar	http://central.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar	Extensions that provide interoperability support for Jackson JSON processor's data binding functionality.
+java-xmlbuilder-0.4.jar	0.4				
+javax.persistence-2.1.0.jar	2.1.0	EDL 1.0	http://www.eclipse.org/eclipselink	http://central.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar	javax.persistence build based upon git transaction 40384f5
+jaxb-api-2.2.2.jar	2.2.2	CDDL 1.1	/open-source/java-specs	http://central.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar	JAXB (JSR 222) API
+jaxb-impl-2.2.3-1.jar	1				
+jcl-over-slf4j-1.7.7.jar	1.7.7	MIT	http://www.slf4j.org	http://central.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar	JCL 1.2 implemented over SLF4J
+jersey-bundle-1.17.1.jar	1.17.1	CDDL 1.1	/repos/central	http://central.maven.org/maven2/com/sun/jersey/jersey-bundle/1.17.1/jersey-bundle-1.17.1.jar	A bundle containing code of all jar-based modules that provide JAX-RS and Jersey-related features. Such a bundle is *only intended* for developers that do not use Maven's dependency system. The bundle does not include code for contributes, tests and samples.
+jersey-core-1.9.jar	1.9	CDDL 1.1	http://central.maven.org/maven2/com/sun/jersey/jersey-core/1.9.1/jersey-core-1.9.1.jar	http://central.maven.org/maven2/com/sun/jersey/jersey-core/1.9.1/jersey-core-1.9.1.jar	Jersey Core
+jersey-json-1.9.jar	1.9	CDDL 1.1	http://central.maven.org/maven2/com/sun/jersey/jersey-json/1.9.1/jersey-json-1.9.1.jar	http://central.maven.org/maven2/com/sun/jersey/jersey-json/1.9.1/jersey-json-1.9.1.jar	Jersey Json
+jersey-server-1.9.jar	1.9	CDDL 1.1	/repos/central	http://central.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar	Jersey Server
+jets3t-0.9.0.jar	0.9.0	Apache 2.0	http://www.jets3t.org	http://central.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0.jar	Toolkit for Amazon S3, Amazon CloudFront, and Google Storage Service.
+jettison-1.1.jar	1.1	CDDL 1.0	http://central.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar	http://central.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar	A StAX implementation for JSON.
+jetty-6.1.26.jar	6.1.26	Apache 2.0	http://central.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar	http://central.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar	The core jetty server artifact.
+jetty-util-6.1.26.jar	6.1.26	Apache 2.0	/repos/central	http://central.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar	Utility classes for Jetty
+jopt-simple-4.9.jar	4.9	MIT	http://pholser.github.com/jopt-simple	http://central.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar	A Java library for parsing command line options
+jsch-0.1.42.jar	0.1.42	BSD	http://www.jcraft.com/jsch	http://central.maven.org/maven2/com/jcraft/jsch/0.1.42/jsch-0.1.42.jar	JSch is a pure Java implementation of SSH2
+jsr305-3.0.0.jar	3.0.0	Apache 2.0	http://findbugs.sourceforge.net/	http://central.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar	JSR305 Annotations for Findbugs
+jsr311-api-1.1.1.jar	1.1.1	CDDL 1.0	https://jsr311.dev.java.net	http://central.maven.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar	Jsr311 Api
+kafka-clients-0.10.0.0.jar	0.10.0.0	Apache 2.0	http://central.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.0.0/kafka-clients-0.10.0.0.jar	http://central.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.0.0/kafka-clients-0.10.0.0.jar	Apache Kafka
+kafka_2.10-0.10.0.0.jar	0.10.0.0				
+leveldbjni-all-1.8.jar	1.8				
+log4j-1.2.17.jar	1.2.17	Apache 2.0	http://logging.apache.org/log4j/1.2/	http://central.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar	Apache Log4j 1.2
+lz4-1.3.0.jar	1.3.0	Apache 2.0	http://central.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar	http://central.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar	Java ports and bindings of the LZ4 compression algorithm and the xxHash hashing algorithm
+metrics-core-2.2.0.jar	2.2.0	Apache 2.0	http://central.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar	http://central.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar	Metrics Core Library
+netty-3.7.0.Final.jar	3.7.0.Final				
+netty-all-4.0.23.Final.jar	4.0.23.Final	Apache 2.0	http://central.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar	http://central.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar	Netty/All In One
+noggit-0.6.jar	0.6				
+paranamer-2.3.jar	2.3				
+protobuf-java-2.5.0.jar	2.5.0	Apache 2.0	http://code.google.com/p/protobuf	http://central.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar	Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.
+ranger-plugins-audit-0.6.0.jar	0.6.0				
+ranger-plugins-common-0.6.0.jar	0.6.0				
+ranger-plugins-cred-0.6.0.jar	0.6.0				
+scala-library-2.10.6.jar	2.10.6	BSD	http://lamp.epfl.ch/	http://central.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.jar	Standard library for the Scala Programming Language
+slf4j-api-1.7.10.jar	1.7.10	MIT	http://www.slf4j.org	http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar	The slf4j API
+slf4j-log4j12-1.7.10.jar	1.7.10	MIT	http://www.slf4j.org	http://central.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar	SLF4J LOG4J-12 Binding
+snappy-java-1.0.4.1.jar	1.0.4.1	Apache 2.0	/artifact/org.xerial.snappy/snappy-java/usages	snappy-java/1.1.4-M3	snappy-java: A fast compression/decompression library
+solr-solrj-5.5.1.jar	5.5.1	Apache 2.0	/tags/search	solr-solrj/6.5.1	Apache Solr Solrj
+stax-api-1.0-2.jar	2	CDDL 1.0	/repos/central	http://central.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar	StAX is a standard XML processing API that allows you to stream XML data from and to your application.
+stax2-api-3.1.4.jar	3.1.4	BSD 2-clause	http://wiki.fasterxml.com/WoodstoxStax2	http://central.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar	tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.
+woodstox-core-asl-4.4.1.jar	4.4.1				
+xercesImpl-2.9.1.jar	2.9.1	Apache 2.0	http://xerces.apache.org/xerces2-j	http://central.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar	Xerces2 is the next generation of high performance, fully compliant XML parsers in the Apache Xerces family. This new version of Xerces introduces the Xerces Native Interface (XNI), a complete framework for building parser components and configurations that is extremely modular and easy to program. The Apache Xerces2 parser is the reference implementation of XNI but other parser components, configurations, and parsers can be written using the Xerces Native Interface. For complete design and ...
+xml-apis-1.3.04.jar	1.3.04	Apache 2.0	http://xml.apache.org/commons/components/external/	http://central.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar	Xml Apis
+xmlenc-0.52.jar	0.52	BSD 2-clause	/repos/central	http://central.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar	xmlenc Library
+xz-1.0.jar	1.0				
+zkclient-0.8.jar	0.8				
+zookeeper-3.4.6.jar	3.4.6				

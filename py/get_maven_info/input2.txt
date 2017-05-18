@@ -1,0 +1,1 @@
+hawq-ranger-plugin-2.2.0.0-1.el7.centos.noarch/usr/local/apache-hawq/ranger/plugin-service/lib/commons-collections-3.2.1.jar
