@@ -1,0 +1,28 @@
+DBVersion: PostgreSQL 8.2.15 (Greenplum Database 4.2.0 build 1) (HAWQ 2.2.0.0-incubating
+  build dev) on x86_64-apple-darwin16.1.0, compiled by GCC Apple LLVM version 8.0.0
+  (clang-800.0.42.1) compiled on May 15 2017 19:24:18 (with assert checking)
+DFS_URL: hdfs://localhost:9000
+Distribution_Policy: DISTRIBUTED RANDOMLY
+Encoding: UTF8
+FileFormat: Parquet
+Parquet_FileLocations:
+  Checksum: false
+  CompressionLevel: 0
+  CompressionType: null
+  EnableDictionary: false
+  Files:
+  - eofuncompressed: 23462
+    path: /hawq_default/16385/16387/92369/1
+    size: 23462
+    tupcount: 1000
+  PageSize: 1048576
+  RowGroupSize: 8388608
+Parquet_Schema:
+- name: id
+  type: int8
+- name: name
+  type: varchar
+- name: age
+  type: int4
+TableName: test_sa.user_pq
+Version: 1.0.0
