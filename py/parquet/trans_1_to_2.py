@@ -20,7 +20,7 @@ for i in range(0, num):
     if not writer:
         schema = row_group.schema
         writer = pq.ParquetWriter(output_file, schema, version="2.0")
-        writer.write_table(row_group)
+    writer.write_table(row_group)
 writer.close()
 
 f = pq.ParquetFile(output_file)
