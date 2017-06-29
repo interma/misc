@@ -14,7 +14,8 @@ public class Main {
         String auth = System.getProperty("auth", "simple");
 
         if (auth.equals("kerberos"))
-            test_kerberos_pg();
+            //test_kerberos_pg();
+            test_kerberos_pg2();
         else
             test_pg();
         System.out.printf("demo finished\n");
@@ -127,5 +128,39 @@ public class Main {
             System.err.println(se.getMessage());
         }
     }
+
+	//tested on local vm
+	private static void test_kerberos_pg2() {
+        if (!get_driver())
+            return;
+
+        String user = System.getProperty("user", "interma");
+        String pass = System.getProperty("pass", "welcome1");
+
+        System.out.println("kerberos mode");
+		System.setProperty("java.security.auth.login.config","/tmp/.java.login.config.bak");
+        //jdbc:postgresql://mdw:5432/mytest?kerberosServerName=postgres&jaasApplicationName=pgjdbc&user=gpadmin/kerberos-gpdb
+        Properties props = new Properties();
+        props.setProperty("user", user);
+        props.setProperty("password", pass);
+        props.setProperty("kerberosServerName", "postgres");
+        props.setProperty("jaasApplicationName", "pgjdbc");
+
+
+        Connection connection = null;
+        try {
+            connection = DriverManager.getConnection("jdbc:postgresql://c6402.ambari.apache.org:5432/postgres", props);
+        } catch (SQLException e) {
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+            return;
+        }
+
+        if (connection != null) {
+            System.out.println("You made it, take control your database now!");
+        } else {
+            System.out.println("Failed to make connection!");
+        }
+	}
 
 }
