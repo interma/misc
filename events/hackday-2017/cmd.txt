@@ -1,0 +1,27 @@
+
+## create data
+
+create table orders_test (id bigint, name varchar(32), price int, ts int) with (appendonly=true, orientation=parquet, rowgroupsize=8388608, pagesize=1048576);
+
+python generate_data.py 10 0
+
+copy orders_test from '/Users/hma/workspace/misc/events/hackday-2017/orders_test.csv' WITH DELIMITER '|';
+
+hawq extract -d postgres -o orders_test.yml orders_test
+
+hdfs dfs -get
+
+./parquet_reader --only-metadata 1
+
+./reader-writer 1
+
+hawq register
+
+
+## query
+\timing
+set enable_parquet_stats=off;
+
+select count(price) from orders_demo where ts = 1499143668;
+select sum(price) from orders_demo where ts > 1499143668;
+
