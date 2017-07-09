@@ -20,6 +20,7 @@ hawq register
 
 ## query
 \timing
+select count(*) from orders_demo;
 set enable_parquet_stats=off;
 
 select count(price) from orders_demo where ts = 1499143668;
