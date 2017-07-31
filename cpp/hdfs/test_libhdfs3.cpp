@@ -6,7 +6,7 @@
 
 //g++ test_libhdfs3.cpp -I/Users/hma/workspace/interma-hawq/depends/libhdfs3/build/install/Users/hma/hawq/install/include/ -L/Users/hma/workspace/interma-hawq/depends/libhdfs3/build/install/Users/hma/hawq/install/lib -lhdfs3
 //export LIBHDFS3_CONF=/Users/hma/workspace/interma-hawq/depends/libhdfs3/test/data/function-test-mac.xml
-//export DYLD_LIBRARY_PATH=/Users/hma/workspace/interma-hawq/depends/libhdfs3/build/install/Users/hma/hawq/install/lib
+//export DYLD_LIBRARY_PATH=/Users/hma/workspace/interma-hawq/depends/libhdfs3/build/install/Users/hma/hawq/install/lib
 
 #include <iostream>
 #include <vector>
@@ -90,6 +90,23 @@ void try_open_twice(hdfsFS fs, const char *file_path) {
 	retval = hdfsCloseFile(fs, fout1);
 	retval = hdfsCloseFile(fs, fout2);
 }
+void try_open_twice2(hdfsFS fs, const char *file_path) {
+	int retval = 0;
+	int rc = 0;
+	char buf1[] = "12345";
+	char buf2[] = "abcde";
+	hdfsFile fout1 = hdfsOpenFile(fs, file_path, O_WRONLY, 0/*not used*/, 0, 0);
+	hdfsFile fout2 = hdfsOpenFile(fs, file_path, O_WRONLY, 0/*not used*/, 0, 0);
+	if (fout2 == NULL) {
+		printf("open file failed: %s", hdfsGetLastError());
+	}
+	rc = hdfsWrite(fs, fout1, buf1, sizeof(buf1)-1);
+	rc = hdfsWrite(fs, fout2, buf2, sizeof(buf2)-1);
+	retval = hdfsCloseFile(fs, fout1);
+	retval = hdfsCloseFile(fs, fout2);
+	//open is ok, but two write/close cause failed:
+	//No lease on /test2/1.txt (inode 0): File is not open for writing. Holder libhdfs3_client_random_297805678_count_1_pid_78821_tid_0x7fff9f2853c0 does not have any open files.
+}
 
 int main()
 {
@@ -105,9 +122,10 @@ int main()
 	//connect to hdfs
 	hdfsFS fs = hdfsBuilderConnect(builder);
 
-	test_list_dir(fs, "/test2/");	
+	//test_list_dir(fs, "/test2/");	
 	test_cat_file(fs, "/test2/1.txt");	
-	try_open_twice(fs, "/test2/1.txt");
+	//try_open_twice(fs, "/test2/1.txt");
+	try_open_twice2(fs, "/test2/1.txt");
 	test_cat_file(fs, "/test2/1.txt");	
 
 	//free hdfs builder
