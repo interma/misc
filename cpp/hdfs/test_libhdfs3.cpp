@@ -108,6 +108,77 @@ void try_open_twice2(hdfsFS fs, const char *file_path) {
 	//No lease on /test2/1.txt (inode 0): File is not open for writing. Holder libhdfs3_client_random_297805678_count_1_pid_78821_tid_0x7fff9f2853c0 does not have any open files.
 }
 
+void test_multi_write(hdfsFS &fs) {
+	test_cat_file(fs, "/test2/1.txt");	
+	//try_open_twice(fs, "/test2/1.txt");
+	try_open_twice2(fs, "/test2/1.txt");
+	test_cat_file(fs, "/test2/1.txt");	
+}
+
+void test_read_write(hdfsFS &fs) {
+	int retval = 0;
+	int rc = 0;
+	char buf1[] = "123456";
+	const char *file_path = "/test2/read_write";
+
+	//test seek
+	hdfsFile fout = hdfsOpenFile(fs, file_path, O_WRONLY, 0/*not used*/, 0, 0);
+	rc = hdfsWrite(fs, fout, buf1, sizeof(buf1)-1);
+
+	hdfsFile fin = hdfsOpenFile(fs, file_path, O_RDONLY, 0/*not used*/, 0, 0);
+	assert(fin != NULL);
+	retval = hdfsSeek(fs, fin, 5);
+	std::cout<<"seek1:"<<retval<<std::endl;
+	
+	rc = hdfsWrite(fs, fout, buf1, sizeof(buf1)-1);
+	retval = hdfsSeek(fs, fin, 11);
+	std::cout<<"seek2:"<<retval<<std::endl;
+	
+	retval = hdfsCloseFile(fs, fout);
+	retval = hdfsSeek(fs, fin, 11);
+	std::cout<<"seek3:"<<retval<<std::endl;
+
+	retval = hdfsCloseFile(fs, fin);
+
+	hdfsFile fin2 = hdfsOpenFile(fs, file_path, O_RDONLY, 0/*not used*/, 0, 0);
+	assert(fin2 != NULL);
+	retval = hdfsSeek(fs, fin2, 11);
+	std::cout<<"seek4:"<<retval<<std::endl;
+	retval = hdfsCloseFile(fs, fin2);
+
+	//output
+	//seek1:-1
+	//seek2:-1
+	//seek3:-1
+	// so if seek failed when a write is working on the same file
+	//seek4:0
+	//TODO there are other more complex cases to be tested.
+	
+	
+
+	//test read
+	const char *buf2 = "abcdef";
+	hdfsFile fin10 = hdfsOpenFile(fs, file_path, O_RDONLY, 0/*not used*/, 0, 0);
+	assert(fin10 != NULL);
+	
+	hdfsFile fout10 = hdfsOpenFile(fs, file_path, O_WRONLY, 0/*not used*/, 0, 0);
+	char read_buf[128];
+	rc = hdfsRead(fs, fin10, read_buf, 5);
+	std::cout<<read_buf<<std::endl;
+
+	rc = hdfsWrite(fs, fout10, buf2, sizeof(buf2)-1);
+	rc = hdfsRead(fs, fin10, read_buf, 7);
+	std::cout<<read_buf<<std::endl;
+
+	retval = hdfsCloseFile(fs, fin10);
+	retval = hdfsCloseFile(fs, fout10);
+
+	//output
+	//12345
+	//6123456
+	//final content is: abcdef
+}
+
 int main()
 {
 	//create a connect builder.
@@ -123,10 +194,8 @@ int main()
 	hdfsFS fs = hdfsBuilderConnect(builder);
 
 	//test_list_dir(fs, "/test2/");	
-	test_cat_file(fs, "/test2/1.txt");	
-	//try_open_twice(fs, "/test2/1.txt");
-	try_open_twice2(fs, "/test2/1.txt");
-	test_cat_file(fs, "/test2/1.txt");	
+
+	test_read_write(fs);
 
 	//free hdfs builder
 	hdfsFreeBuilder(builder);
