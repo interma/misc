@@ -1,0 +1,29 @@
+define sum_context_blocks
+set $context = $arg0
+set $block = ((AllocSet) $context)->blocks
+set $size = 0
+while ($block)
+set $size = $size + (((AllocBlock) $block)->endptr - ((char *) $block))
+set $block = ((AllocBlock) $block)->next
+end
+printf "%s: %d\n",((MemoryContext)$context)->name, $size
+end
+
+define walk_contexts
+set $parent_$arg0 = ($arg1)
+set $indent_$arg0 = ($arg0)
+set $i_$arg0 = $indent_$arg0
+while ($i_$arg0)
+printf " "
+set $i_$arg0 = $i_$arg0 - 1
+end
+sum_context_blocks $parent_$arg0
+set $child_$arg0 = ((MemoryContext) $parent_$arg0)->firstchild
+set $indent_$arg0 = $indent_$arg0 + 1
+while ($child_$arg0)
+walk_contexts $indent_$arg0 $child_$arg0
+set $child_$arg0 = ((MemoryContext) $child_$arg0)->nextchild
+end
+end
+
+walk_contexts 0 TopMemoryContext
