@@ -126,7 +126,6 @@ install()
 	put_config --file hdfs-site.xml --property dfs.datanode.data.dir --value "$DN_DATA_DIR"
 	put_config --file hdfs-site.xml --property dfs.namenode.http-address --value "$nn:50070"
 	put_config --file hdfs-site.xml --property dfs.namenode.secondary.http-address --value "$snn:50090"
-	put_config --file hdfs-site.xml --property dfs.permissions.enabled --value "false"
 
 	create_config --file mapred-site.xml
 	put_config --file mapred-site.xml --property mapreduce.framework.name --value yarn
@@ -141,7 +140,7 @@ install()
 	put_config --file yarn-site.xml --property yarn.resourcemanager.scheduler.address --value "$rmgr:8030"
 	put_config --file yarn-site.xml --property yarn.resourcemanager.resource-tracker.address --value "$rmgr:8031"
 	put_config --file yarn-site.xml --property yarn.resourcemanager.address --value "$rmgr:8032"
-	put_config --file yarn-site.xml --property yarn.resourcemanager.hostname --value "student73"
+	#put_config --file yarn-site.xml --property yarn.resourcemanager.hostname --value "student73"
 	put_config --file yarn-site.xml --property yarn.resourcemanager.admin.address --value "$rmgr:8033"
 	put_config --file yarn-site.xml --property yarn.resourcemanager.webapp.address --value "$rmgr:8088"
 
