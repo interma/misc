@@ -169,16 +169,17 @@ install()
 	pdcp -w ^rm_host hadoop-resourcemanager /etc/init.d/
 	pdcp -w ^nm_hosts hadoop-nodemanager /etc/init.d/
 	pdcp -w ^mr_history_host hadoop-historyserver /etc/init.d/
-	#pdcp -w ^yarn_proxy_host hadoop-proxyserver /etc/init.d/
+	pdcp -w ^yarn_proxy_host hadoop-proxyserver /etc/init.d/
 
 	echo "Starting Hadoop $HADOOP_VERSION services on all hosts..."
-	pdsh -w ^nn_host "chmod 755 /etc/init.d/hadoop-namenode && sudo sysv-rc-conf hadoop-namenode on && sudo service hadoop-namenode start"
-	pdsh -w ^snn_host "chmod 755 /etc/init.d/hadoop-secondarynamenode && sudo sysv-rc-conf hadoop-secondarynamenode on && sudo service hadoop-secondarynamenode start"
-	pdsh -w ^dn_hosts "chmod 755 /etc/init.d/hadoop-datanode && sudo sysv-rc-conf hadoop-datanode on && sudo service hadoop-datanode start"
-	pdsh -w ^rm_host "chmod 755 /etc/init.d/hadoop-resourcemanager && sudo sysv-rc-conf hadoop-resourcemanager on && sudo service hadoop-resourcemanager start"
-	pdsh -w ^nm_hosts "chmod 755 /etc/init.d/hadoop-nodemanager && sudo sysv-rc-conf hadoop-nodemanager on && sudo service hadoop-nodemanager start"
+	pdsh -w ^nn_host "chmod 755 /etc/init.d/hadoop-namenode && chkconfig hadoop-namenode on && service hadoop-namenode start"
+	pdsh -w ^snn_host "chmod 755 /etc/init.d/hadoop-secondarynamenode && chkconfig hadoop-secondarynamenode on && service hadoop-secondarynamenode start"
+	pdsh -w ^dn_hosts "chmod 755 /etc/init.d/hadoop-datanode && chkconfig hadoop-datanode on && service hadoop-datanode start"
+	pdsh -w ^rm_host "chmod 755 /etc/init.d/hadoop-resourcemanager && chkconfig hadoop-resourcemanager on && service hadoop-resourcemanager start"
+	pdsh -w ^nm_hosts "chmod 755 /etc/init.d/hadoop-nodemanager && chkconfig hadoop-nodemanager on && service hadoop-nodemanager start"
 
-	#pdsh -w ^yarn_proxy_host "chmod 755 /etc/init.d/hadoop-proxyserver && sudo sysv-rc-conf hadoop-proxyserver on && sudo service hadoop-proxyserver start"
+	pdsh -w ^yarn_proxy_host "chmod 755 /etc/init.d/hadoop-proxyserver && chkconfig hadoop-proxyserver on && service hadoop-proxyserver start"
+
 
 	echo "Creating MapReduce Job History directories..."
 	hadoop fs -mkdir -p /root/history/done_intermediate
