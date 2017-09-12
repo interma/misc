@@ -9,7 +9,7 @@ set -x
 #
 
 # Basic environment variables.  Edit as necessary
-HADOOP_VERSION=2.7.4
+HADOOP_VERSION=2.7.3
 HADOOP_HOME="/opt/hadoop-${HADOOP_VERSION}"
 NN_DATA_DIR=/var/data/hadoop/hdfs/nn
 SNN_DATA_DIR=/var/data/hadoop/hdfs/snn
@@ -273,7 +273,7 @@ help()
 	install-hadoop2.sh -f
 	install-hadoop2.sh --file
 
-	EOF
+EOF
 }
 
 while true;
