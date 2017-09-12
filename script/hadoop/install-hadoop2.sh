@@ -125,7 +125,7 @@ install()
 	put_config --file hdfs-site.xml --property fs.checkpoint.edits.dir --value "$SNN_DATA_DIR"
 	put_config --file hdfs-site.xml --property dfs.datanode.data.dir --value "$DN_DATA_DIR"
 	put_config --file hdfs-site.xml --property dfs.namenode.http-address --value "$nn:50070"
-	put_config --file hdfs-site.xml --property dfs.namenode.secondary.http-address --value "$snn:50090"
+	#put_config --file hdfs-site.xml --property dfs.namenode.secondary.http-address --value "$snn:50090"
 
 	create_config --file mapred-site.xml
 	put_config --file mapred-site.xml --property mapreduce.framework.name --value yarn
@@ -163,7 +163,7 @@ install()
 
 	echo "Copying startup scripts to all hosts..."
 	pdcp -w ^nn_host hadoop-namenode /etc/init.d/
-	pdcp -w ^snn_host hadoop-secondarynamenode /etc/init.d/
+	#pdcp -w ^snn_host hadoop-secondarynamenode /etc/init.d/
 	pdcp -w ^dn_hosts hadoop-datanode /etc/init.d/
 	pdcp -w ^rm_host hadoop-resourcemanager /etc/init.d/
 	pdcp -w ^nm_hosts hadoop-nodemanager /etc/init.d/
@@ -172,7 +172,7 @@ install()
 
 	echo "Starting Hadoop $HADOOP_VERSION services on all hosts..."
 	pdsh -w ^nn_host "chmod 755 /etc/init.d/hadoop-namenode && chkconfig hadoop-namenode on && service hadoop-namenode start"
-	pdsh -w ^snn_host "chmod 755 /etc/init.d/hadoop-secondarynamenode && chkconfig hadoop-secondarynamenode on && service hadoop-secondarynamenode start"
+	#pdsh -w ^snn_host "chmod 755 /etc/init.d/hadoop-secondarynamenode && chkconfig hadoop-secondarynamenode on && service hadoop-secondarynamenode start"
 	pdsh -w ^dn_hosts "chmod 755 /etc/init.d/hadoop-datanode && chkconfig hadoop-datanode on && service hadoop-datanode start"
 	pdsh -w ^rm_host "chmod 755 /etc/init.d/hadoop-resourcemanager && chkconfig hadoop-resourcemanager on && service hadoop-resourcemanager start"
 	pdsh -w ^nm_hosts "chmod 755 /etc/init.d/hadoop-nodemanager && chkconfig hadoop-nodemanager on && service hadoop-nodemanager start"
