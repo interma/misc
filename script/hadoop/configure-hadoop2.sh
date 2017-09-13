@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#usage
+#./configure-hadoop2.sh -f /opt/hadoop-2.7.3/etc/hadoop/hdfs-site.xml -r
+
 HADOOP_VERSION=2.0.5-alpha
 HADOOP_HOME=/opt/hadoop-"${HADOOP_VERSION}"
 
@@ -31,7 +34,7 @@ restart_hadoop()
 {
 	echo "Restarting Hadoop 2..."
 	pdsh -w ^dn_hosts "service hadoop-datanode stop"
-	pdsh -w ^snn_host "service hadoop-secondarynamenode stop"
+	#pdsh -w ^snn_host "service hadoop-secondarynamenode stop"
 	pdsh -w ^nn_host "service hadoop-namenode stop"
 	pdsh -w ^mr_history_host "service hadoop-historyserver stop"
 	pdsh -w ^yarn_proxy_host "service hadoop-proxyserver stop"
@@ -39,7 +42,7 @@ restart_hadoop()
 	pdsh -w ^rm_host "service hadoop-resourcemanager stop"
 
 	pdsh -w ^nn_host "service hadoop-namenode start"
-	pdsh -w ^snn_host "service hadoop-secondarynamenode start"
+	#pdsh -w ^snn_host "service hadoop-secondarynamenode start"
 	pdsh -w ^dn_hosts "service hadoop-datanode start"
 	pdsh -w ^rm_host "service hadoop-resourcemanager start"
 	pdsh -w ^nm_hosts "service hadoop-nodemanager start"
@@ -162,20 +165,20 @@ do
   esac
 done
 
-if [ "$op" == "" ]; then
-   echo "ERROR: option '-o | --operation' not given. See --help" >&2
-   exit 1
-fi
+#if [ "$op" == "" ]; then
+#   echo "ERROR: option '-o | --operation' not given. See --help" >&2
+#   exit 1
+#fi
 
 if [ "$file" == "" ]; then
    echo "ERROR: option '-f | --file' not given. See --help" >&2
    exit 1
 fi
 
-if [ "$property" == "" ]; then
-   echo "ERROR: option '-p | --property' not given. See --help" >&2
-   exit 1
-fi
+#if [ "$property" == "" ]; then
+#   echo "ERROR: option '-p | --property' not given. See --help" >&2
+#   exit 1
+#fi
 
 if [ "$op" == "put" ] && [ "$value" == "" ]; then
    echo "ERROR: option '-o | --operation' given with option '-v | --value' not given. See --help" >&2
