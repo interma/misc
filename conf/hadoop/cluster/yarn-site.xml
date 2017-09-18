@@ -32,4 +32,15 @@
     <name>yarn.resourcemanager.webapp.address</name>
     <value>bds12:8088</value>
   </property>
+
+  <!-- 60G memory and 14 vcore each machine -->
+  <property>
+	  <name>yarn.nooemanager.resource.memory-mb</name>
+	  <value>61440</value>
+  </property>
+  <property>
+	  <name>yarn.nodemanager.resource.cpu-vcores</name>
+	  <value>14</value>
+  <property>
+
 </configuration>
