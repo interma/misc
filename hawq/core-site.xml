@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<configuration>
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://bds12:9000</value>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/var/data/hadoop/tmp/</value>
+	</property>
+	<property>
+		<name>ipc.client.connection.maxidletime</name>
+		<value>3600000</value>
+	</property>
+	<property>
+		<name>ipc.client.connect.timeout</name>
+		<value>300000</value>
+	</property>
+	<property>
+		<name>ipc.server.listen.queue.size</name>
+		<value>3300</value>
+	</property>
+</configuration>
