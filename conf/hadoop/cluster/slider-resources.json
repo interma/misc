@@ -1,0 +1,22 @@
+{
+	"schema" : "http://example.org/specification/v2.0.0",
+	"metadata" : {
+	},
+	"global" : {
+		"yarn.log.include.patterns": ".*\\.done"
+	},
+	"components": {
+		"slider-appmaster": {
+			"yarn.memory": "1024",
+			"yarn.component.instances": "1"
+		},
+		"LLAP": {
+			"yarn.role.priority": "1",
+			"yarn.component.instances": "4",
+			"yarn.resource.normalization.enabled": "false",
+			"yarn.memory": "48000",
+			"yarn.vcores": "8",
+			"yarn.component.placement.policy" : "4"
+		}
+	}
+}
