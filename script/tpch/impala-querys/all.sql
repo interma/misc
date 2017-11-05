@@ -1,0 +1,33 @@
+use tpch_partitioned_parquet_1000;
+
+COMPUTE STATS customer;
+COMPUTE STATS lineitem;
+COMPUTE STATS nation;
+COMPUTE STATS orders;
+COMPUTE STATS part;
+COMPUTE STATS partsupp;
+COMPUTE STATS region;
+COMPUTE STATS supplier;
+
+source tpch_query1.sql; 
+source tpch_query2.sql; 
+source tpch_query3.sql; 
+source tpch_query4.sql; 
+source tpch_query5.sql; 
+source tpch_query6.sql; 
+source tpch_query7.sql; 
+source tpch_query8.sql; 
+source tpch_query9.sql; 
+source tpch_query10.sql; 
+source tpch_query11.sql; 
+source tpch_query12.sql; 
+source tpch_query13.sql; 
+source tpch_query14.sql; 
+source tpch_query15.sql; 
+source tpch_query16.sql; 
+source tpch_query17.sql; 
+source tpch_query18.sql; 
+source tpch_query19.sql; 
+source tpch_query20.sql; 
+source tpch_query21.sql; 
+source tpch_query22.sql; 
