@@ -1,0 +1,1 @@
+KUBELET_ARGS="--kubeconfig=/opt/kubernetes/etc/bootstrap.kubeconfig --logtostderr=false --log-dir=/opt/kubernetes/log --v=2"
