@@ -1,1 +1,1 @@
-KUBELET_ARGS="--kubeconfig=/opt/kubernetes/etc/bootstrap.kubeconfig --logtostderr=false --log-dir=/opt/kubernetes/log --v=2"
+KUBELET_ARGS="--cluster-dns=169.169.0.2 --cluster-domain=cluster.local --kubeconfig=/opt/kubernetes/etc/bootstrap.kubeconfig --logtostderr=false --log-dir=/opt/kubernetes/log --v=2"
