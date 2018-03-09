@@ -36,3 +36,10 @@ func GetHawqConfiguration(filepath string) (*HawqConfiguration, error) {
 
 	return &conf, nil
 }
+
+func GetXmlContent(conf *HawqConfiguration) (string, error) {
+	output, err := xml.MarshalIndent(conf, "", "	")
+	str := string(output[:])
+	str = xml.Header + str
+	return str, err
+}
