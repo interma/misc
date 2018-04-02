@@ -5,9 +5,9 @@
 */
 
 //compile in mac:
-//gcc jsonc_example.c -I /usr/local/Cellar/json-c/0.12/include/json-c -L /usr/local/Cellar/json-c/0.12/lib/ -ljson-c
+//gcc jsonc_example.c -I /usr/local/Cellar/json-c/0.12/include/ -L /usr/local/Cellar/json-c/0.12/lib/ -ljson-c
 
-#include <json.h>
+#include <json-c/json.h>
 #include <stdio.h>
 
 int main() {
