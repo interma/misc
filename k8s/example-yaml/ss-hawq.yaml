@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hawq
+  labels:
+    app: hawq
+spec:
+  ports:
+  - port: 5432
+    name: db
+  clusterIP: None
+  selector:
+    app: hawq
+---
+apiVersion: apps/v1beta1
+kind: StatefulSet
+metadata:
+  name: db
+spec:
+  serviceName: "hawq"
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: hawq
+    spec:
+      terminationGracePeriodSeconds: 2
+      containers:
+      - name: hawq
+        image: interma/interma-hawq:1
+        securityContext:
+            privileged: true
+        ports:
+        - containerPort: 5432
+          name: db
+        env:
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: POD_NS
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
