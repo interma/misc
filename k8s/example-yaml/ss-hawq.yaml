@@ -27,7 +27,7 @@ spec:
       terminationGracePeriodSeconds: 2
       containers:
       - name: hawq
-        image: interma/interma-hawq:1
+        image: interma/interma-hawq:2
         securityContext:
             privileged: true
         ports:
