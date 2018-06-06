@@ -55,8 +55,21 @@ func test4() {
     time.Sleep(4 * time.Second)
 }
 
+func test5() {
+	var retries int = 10
+	tick := time.NewTicker(2*time.Second)
+	defer tick.Stop()
+
+	for i := 0; ; i++ {
+		log.Println("xx")
+		if i >= retries {
+			break
+		}
+		<-tick.C
+	}
+}
 
 func main() {
 	//test4()
-	test3()
+	test5()
 }
