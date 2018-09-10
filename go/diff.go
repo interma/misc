@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"github.com/sirupsen/logrus"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
@@ -13,6 +14,7 @@ const (
 
 
 func main() {
+	logrus.SetOutput(os.Stdout)
 	logrus.SetLevel(logrus.DebugLevel)
 	logrus.Debugf("debug message")
 	var obj *int = nil
@@ -25,7 +27,8 @@ func main() {
 
 	diffs := dmp.DiffMain(text1, text2, false)
 	fmt.Println(dmp.DiffPrettyText(diffs))
-	fmt.Println(dmp.DiffText1(diffs))
+	//fmt.Println(dmp.DiffText1(diffs))
 	diffs = dmp.DiffMain(text3, text4, false)
-	fmt.Println(dmp.DiffPrettyText(diffs))
+	fmt.Printf("diff %s", dmp.DiffPrettyText(diffs))
+	logrus.Debugf("logrus diff %s", dmp.DiffPrettyText(diffs))
 }
