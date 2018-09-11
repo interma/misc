@@ -8,8 +8,11 @@ import (
 
 func main() {
 	logf.SetLogger(logf.ZapLoggerTo(GinkgoWriter, true))
+	logf.SetLogger(logf.ZapLogger(true))
 	var log = logf.Log.WithName("main")
 	log.V(1).Info("Registering Components.")
+	log.Error(fmt.Errorf("i am a inner error"), "outer error")
+	log.V(1).Info("xxx info")
 
 	fmt.Print("here")
 }
