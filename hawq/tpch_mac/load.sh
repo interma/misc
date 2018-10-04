@@ -1,4 +1,6 @@
 
+# generate data
+./dbgen -vf -s 1
 
 # remove ending |
 sed -i -e "s/|$//g" *.tbl

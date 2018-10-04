@@ -1,5 +1,5 @@
 -- USAGE:
--- psql -f tpch.sql -d tpch_parquet_1gpn_snappy_part_random_gpadmin
+-- psql -f tpch.sql -d tpch_parquet_1gpn_snappy_part_random_gpadmin > result.txt
 \timing
 select count(*) from lineitem;
 
