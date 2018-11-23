@@ -1,6 +1,12 @@
 -- USAGE:
 -- psql -f tpch.sql -d tpch_parquet_1gpn_snappy_part_random_gpadmin > result.txt
+
+
 \timing
+-- enable ORCA
+set optimizer to on;
+
+-- 0
 select count(*) from lineitem;
 
 -- 1
