@@ -1,0 +1,21 @@
+\timing
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
+COPY public.wiki(original_id,category_id,title,body) FROM '/home/gpadmin/raw_data/all.csv' HEADER CSV;
