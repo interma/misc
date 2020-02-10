@@ -6,3 +6,6 @@ ifdef $(exist)
 else
 	@echo "no exist"
 endif
+
+test:
+	@echo "test"
