@@ -24,6 +24,10 @@ int main()
 	char c[128];
 	scanf("%s", c);
 	int ret = lseek(f,5,SEEK_SET);//skips 5 characters from the current position
-	printf("result: %d %s", ret, strerror(errno));
+	printf("result: %d %s\n", ret, strerror(errno));
+	ret = write(f, c, sizeof(c));
+	printf("result2: %d %s\n", ret, strerror(errno));
+	ret = close(f);
+	printf("result3: %d %s\n", ret, strerror(errno));
 	return 0;
 }
