@@ -1,0 +1,76 @@
+
+set -g display-time 3000
+set -g history-limit 65535
+
+# set prefix like screen Ctrl + a
+set-option -g prefix C-a
+unbind-key C-b
+bind-key C-a send-prefix
+
+setw -g mode-keys vi
+setw -g xterm-keys on
+
+unbind %
+bind | split-window -h
+bind - split-window -v
+
+# " windowlist -b
+unbind '"'
+bind '"' choose-window
+
+# Status line
+set-option -g visual-activity on
+setw -g monitor-activity on
+setw -g automatic-rename off
+set -g base-index 1
+set -g terminal-overrides "*88col*:colors=88,*256col*:colors=256,xterm*:colors=256"
+set -g default-terminal "screen-256color"
+set-option -ga terminal-overrides ",*256col*:Tc" #True color
+set -g status-justify centre
+set -g status-bg gray
+set -g status-left "#[fg=cyan]:#[fg=blue]: #[fg=red][ #[fg=blue]#H #[fg=red]]#[default]"
+set -g status-left-length 20
+set -g status-right-length 25
+set -g status-right "#[fg=red][ #[fg=blue]%H:%M #[fg=magenta]%a %m-%d #[fg=red]] #[fg=blue]:#[fg=cyan]:#[default]"
+setw -g window-status-format '#[fg=blue,bold]#I #W#[default] '
+setw -g window-status-current-format '#[fg=blue,bold,reverse]#I #W#[default] '
+
+# resize panes like vim
+# feel free to change the "1" to however many lines you want to resize by, only
+# one at a time can be slow
+#bind  resize-pane -R 1
+bind - resize-pane -D 1
+bind + resize-pane -U 1
+
+# move around panes with hjkl, as one would in vim after pressing ctrl-w
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+# next ^@ ^N sp n
+unbind ^@
+bind ^@ next-window
+unbind ^N
+bind ^N next-window
+unbind " "
+bind " " next-window
+unbind n
+bind n next-window
+
+# other ^A
+unbind ^A
+bind ^A last-window
+
+# prev ^H ^P p ^?
+unbind ^H
+bind ^H previous-window
+unbind ^P
+bind ^P previous-window
+unbind p
+bind p previous-window
+unbind BSpace
+bind BSpace previous-window
+
+# reload config file
+bind r source-file ~/.tmux.conf
