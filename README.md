@@ -13,3 +13,6 @@
 3. code examples
 
 thanks
+
+--
+updated from multipass gpdb2 2024-05-10
